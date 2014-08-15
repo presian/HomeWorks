@@ -1,0 +1,26 @@
+	*{
+		padding: 0px;
+		margin: 0px;
+		font-family: Arial;
+		font-size: 15px;
+		color: black;
+	}
+	body{
+		width: 100%;
+		height: auto;
+		display: flex;
+		justify-content: center;
+	}
+	.wrapper{	
+		display: inline-flex;
+		width: 270px;
+		height: auto;
+		margin: 0px auto;
+		margin-top: 200px;
+	}
+	.wrapper input[type=text]{
+		margin-right: 20px; 
+	}
+	.wrapper input[type=submit]{
+		width: 100px;
+	}
