@@ -1,0 +1,52 @@
+    body {
+        background-color: black;
+    }
+    a{
+        color: white;
+        text-decoration: none;
+        font-weight: bold;
+    }
+    p{
+        color: gray;
+    }
+
+    #name{
+        display: inline-block;
+        color: white;
+        width: 150px;
+        vertical-align: top;
+        margin: 10px 20px 10px 10px;
+    }
+    #pages{
+        display: inline-block;
+        color: white;
+        width: 100px;
+        vertical-align: top;
+        margin: 10px 20px 10px 10px;
+    }
+    #pages >ul{
+        list-style: none;
+        padding: 0px;
+
+    }
+    #latest{
+        display: inline-block;
+        width: 150px;
+        color: white;
+        vertical-align: top;
+        margin: 10px 20px 10px 10px;
+    }
+    #more{
+        display: inline-block;
+        width: 150px;
+        color: white;
+        vertical-align: top;
+        margin: 10px 20px 10px 10px;
+    }
+    #copy{
+        display: inline-block;
+        width: 150px;
+        color: white;
+        vertical-align: top;
+        margin: 10px 10px 10px 10px;
+    }

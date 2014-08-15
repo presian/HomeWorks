@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+    <head lang="en">
+        <meta charset="UTF-8">
+        <title>FlightOrder</title>
+        <style>
+            label{
+                font-family: Arial;
+                font-style: italic;
+                font-size: 12px;
+                display: inline-block;
+            }
+            .check{
+                vertical-align: middle;
+            }
+            table{
+                background-color: lightblue;
+                padding: 2px;
+            }
+            tr{
+                height: 30px;
+                vertical-align: bottom;
+            }
+            .td2{
+                width: 69px;
+            }
+            th{
+                text-align: center;
+                font-style: italic;
+                font-size: 17px;
+            }
+            .top{
+                vertical-align: top;
+            }
+            select{
+                width: 100%;
+            }
+            .hundred{
+                width: 98%;
+            }
+            .hh2{
+                width: 95%;
+            }
+            .foot{
+                width: 100%;
+                text-align: center;
+            }
+        </style>
+    </head>
+
+    <body>
+        <table>
+            <thead>
+                <tr>
+                    <th colspan="5">
+                            FLIGHT ORDER
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td class="top" colspan="3">
+                        <label for="firstSelection">From</label><br>
+                        <select id="firstSelection">
+                            <option>enter a city</option>
+                            <option>Sofia</option>
+                            <option>Berlin</option>
+                            <option>London</option>
+                        </select>
+                    </td>
+                    <td colspan="2">
+                        <label for="secondSelection">To</label><br>
+                        <select id="secondSelection">
+                            <option>enter a city</option>
+                            <option>Sofia</option>
+                            <option>Berlin</option>
+                            <option>London</option>
+                        </select><br>
+                        <input type="checkbox" id="pref" class="check">
+                        <label for="pref">Prefer directs</label><br>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="3">
+                        <label>Departure Date</label><br>
+                        <input type="date" class="hundred">
+                    </td>
+                    <td >
+                        <label>Time Interval</label><br>
+                        <input type="time">
+                    </td>
+                    <td>
+                        <input type="time">
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="3">
+                        <label>Return Date</label><br>
+                        <input type="date" class="hundred">
+                    </td>
+                    <td>
+                        <label>Time Interval</label><br>
+                        <input type="time">
+                    </td>
+                    <td>
+                        <input type="time">
+                    </td>
+                </tr>
+                <tr>
+                    <td class="td2">
+                        <label>12+</label><br>
+                        <input type="number" min="0" max="12" placeholder="0" class="hh2">
+                    </td>
+                    <td class="td2">
+                        <label>2-12</label><br>
+                        <input type="number" min="2" max="12" placeholder="2" class="hh2">
+                    </td >
+                    <td class="td2">
+                        <label>0-2</label><br>
+                        <input type="number" min="0" max="2" placeholder="0" class="hh2">
+                    </td>
+                    <td colspan="2">
+                        <label>Select class</label><br>
+                        <select>
+                            <option>Economy</option>
+                            <option>First</option>
+                            <option>Business</option>
+                            <option>Second</option>
+                        </select>
+                    </td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td colspan="3">
+                        <p></p>
+                    </td>
+                    <td colspan="2">
+                        <input type="button" value="Search" class="foot">
+                    </td>
+                </tr>
+            </tfoot>
+        </table>
+    </body>
+</html>

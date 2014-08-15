@@ -1,0 +1,150 @@
+  @navcolor: rgb(223,223,223);
+  @border: rgb(219,219,219);
+  *{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial;
+  }
+  body{
+    background-color: black;
+  }
+  header{
+    width: 900px;
+    height: 270px;
+    background-image: url("../images/_4_/headerBackground.jpg");
+    background-repeat: no-repeat;
+  }
+  #head{
+    color: white;
+    font-size: 1.7em;
+    font-weight: bolder;
+    float: right;
+    position: relative;
+    top: 200px;
+    right: 70px;
+  }
+  #nav{
+    background-color: @navcolor;
+    height: 54px;
+    ul{
+      height: 50px;
+      border-bottom: 2px solid rgb(255,255,255);
+      li:nth-child(1){
+        background-color: rgb(184,184,184);
+        a{
+          color: white;
+        }
+      }
+      li{
+        padding: 15px 40px 15px 40px;
+        float: left;
+        display: inline-block;
+        text-align: center;
+        background-color: @navcolor;
+        border-bottom: 2px solid rgb(255,255,255);
+        border-right: 2px solid rgb(255,255,255);
+        a{
+          color: rgb(98,97,117);
+          text-decoration: none;
+        }
+      }
+    }
+  }
+  #all{
+    display: block;
+    width: 900px ;
+    height: auto;
+    margin: 0px auto;
+    background-color: white;
+
+  }
+  h2{
+    position: inherit;
+    color: rgb(132,190,25);
+    margin: 5px 0px 20px 0px;
+  }
+  h3{
+    font-size: 1em;
+  }
+  main{
+    position: inherit;
+    width: 70%;
+    display: inline-block;
+    vertical-align: top;
+    section{
+      position: inherit;
+      margin: 25px 35px 25px 35px;
+      padding: 15px;
+      border: @border 2px solid;
+      border-radius: 10px;
+      text-align: justify;
+      img{
+        vertical-align: top;
+      }
+
+      article{
+        position: inherit;
+        display: inline-block;
+        width: 67%;
+        font-size: 0.8em;
+        margin: 0px 0px 30px 0px;
+      }
+      article:last-of-type{
+        margin: 0px;
+      }
+    }
+    #welcome{
+      span:first-of-type{
+        font-weight: bold;
+      }
+    }
+
+
+  }
+  aside{
+    width: 21%;
+    display: inline-block;
+
+    a{
+      color:  rgb(132,190,25);
+    }
+    div:first-of-type{
+      position: inherit;
+      background-color: @navcolor;
+      text-align: justify;
+      vertical-align: top;
+    }
+    div{
+      width: 100%;
+      position: inherit;
+      margin: 25px 35px 25px 0px;
+      border: @border 2px solid;
+      border-radius: 10px;
+      text-align: left;
+      padding: 15px;
+      h3{
+        margin: 20px 0px 0px 0px;
+      }
+    }
+  }
+  footer{
+    position: inherit;
+    width: 100%;
+    height: 100px;
+    background-color: rgb(148,203,47);
+    padding-top: 3px;
+
+    div{
+      position: inherit;
+      vertical-align: bottom;
+      width: 100%;
+      height: 95px;
+      border-top: solid 1px #ffffff;
+      p{
+        position: relative;
+        font-size: 0.8em;
+        left: 120px;
+        top: 40px;
+      }
+    }
+  }

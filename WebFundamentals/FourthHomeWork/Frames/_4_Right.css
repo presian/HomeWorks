@@ -1,0 +1,24 @@
+    body {
+        width: 150px;
+        float: right;
+    }
+    aside{
+        width: 145px;
+        display: block;
+        padding: 20px 0px 0px 0px;
+    }
+    #language{
+        display: block;
+    }
+
+    a{
+        display: block;
+        text-decoration: none;
+    }
+    select{
+        width: 100%;
+        margin: 10px 0px 25px 0px;
+    }
+    hr{
+        margin: 2px 0px 2px 0px;
+    }

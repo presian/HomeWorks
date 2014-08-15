@@ -1,0 +1,29 @@
+    body {
+
+    }
+    a{
+        text-decoration: none;
+
+    }
+    #articles{
+        width: 500px;
+        display: block;
+    }
+    .underArticle{
+        font-size: 12px;
+
+    }
+    .bozho{
+        text-decoration: underline;
+        color: gray;
+    }
+    .singleArticles{
+
+    }
+    .continue{
+        display: block;
+    }
+    .previous{
+        display: block;
+        margin: 50px 0px 0px 0px;
+    }

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+    <head lang="en">
+        <meta charset="UTF-8">
+        <title>Simple Form</title>
+        <style>
+            td{
+                width: 250px;
+                vertical-align: top;
+                padding: 10px;
+            }
+            .button{
+                float: right;
+            }
+            .inputText{
+                width: 100%;
+            }
+            .right{
+                text-align: right;
+            }
+            .back{
+                background: blue;
+                color: white;
+            }
+            .whiteText{
+                color: white;
+            }
+            .allForm{
+                background-color: lightblue;
+                width: 600px;
+                height: 300px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="allForm">
+        <h2>
+            Enter the system
+        </h2>
+        <p>
+            It is necessary to login in Your account in order to sign in for a course.
+        </p>
+        <table>
+            <tr>
+                <td>
+                    <div id="regForm">
+                        <form method="get">
+                            <p>
+                                <b>ARE YOU NEW? REGISTER</b>
+                            </p>
+                            <input class="inputText" type="text" name="User name" placeholder="User name" required="true" pattern="[A-Za-z0-9]{6,}"><br>
+                            <input class="inputText" type="email" name="Email" placeholder="Email" required="true"><br>
+                            <input class="inputText" type="password" name="Password" placeholder="Password"><br>
+                            <input class="inputText" type="password" name="ConfirmPassword" placeholder="Confirm Password"><br>
+                            <input class="button" type="submit" value="Register" autofocus="autofocus">
+                        </form>
+                    </div>
+                </td>
+                <td class="back">
+                    <div id="logInForm">
+                        <form method="get">
+                            <p>
+                                <b>ALREADY A STUDENT? LOGIN</b>
+                            </p>
+                            <input class="inputText" type="text" name="User name" placeholder="User name" required="true" pattern="[A-Za-z0-9]{6,}"><br>
+                            <input class="inputText" type="password" name="Password" placeholder="Password"><br>
+                            <input type="checkbox" id="check"><label for="check">Remember me?</label>
+                            <input class="button" type="submit" value="Login" ac><br>
+                            <p class="right"><a href="_1_SimpleForm.html" class="whiteText">Forgot Password</a></p>
+                        </form>
+                    </div>
+                </td>
+            </tr>
+        </table>
+        </div>
+    </body>
+</html>

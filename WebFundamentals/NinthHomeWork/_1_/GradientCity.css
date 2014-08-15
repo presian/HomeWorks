@@ -1,0 +1,238 @@
+.DoubledBorder {
+  border: 3px double #808080;
+}
+.SingleBorder {
+  border: 1px solid #808080;
+}
+.Div {
+  position: relative;
+  padding: 0px;
+  width: 15%;
+  border-radius: 15%;
+  padding-bottom: 15%;
+}
+.Div div {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+* {
+  margin: 0px;
+  padding: 0px;
+  font-size: 15px;
+  padding: 20px;
+  font-family: Arial;
+}
+body {
+  width: 100%;
+  height: 100%;
+  background-image: linear-gradient(to top left, #ffffff, #808080);
+  padding: 0px;
+}
+h1 {
+  font-size: 2em;
+  padding-bottom: 15px;
+  text-align: center;
+  color: #808080;
+  text-decoration: underline;
+}
+h2 {
+  font-weight: lighter;
+  font-size: 1.1em;
+  color: #808080;
+  text-align: center;
+  padding: 0px;
+}
+a {
+  font-size: 1.2em;
+  text-decoration: none;
+  color: #808080;
+}
+li {
+  display: inline-flex;
+  list-style: none;
+}
+article {
+  border: 1px solid #808080;
+  margin-bottom: 10px;
+  padding: 0px;
+}
+footer {
+  display: flex;
+  flex-direction: column;
+  padding: 0px;
+}
+footer h3 {
+  width: 100%;
+  text-align: center;
+  padding: 0px;
+}
+footer ul {
+  display: flex;
+  flex-direction: column;
+}
+footer ul li {
+  display: flex;
+  padding: 0px;
+  justify-content: center;
+}
+footer ul li a {
+  padding: 5px;
+}
+#wrapper {
+  border: 3px double #808080;
+  display: block;
+  margin: 0px auto;
+  width: 80%;
+  background-color: #ffffff;
+}
+#head {
+  display: block;
+  margin: 0px auto;
+  justify-content: space-around;
+  margin-bottom: 20px;
+  border: 3px double #808080;
+  padding: 0px;
+}
+#head h1 {
+  display: block;
+  margin: 0px auto;
+  text-decoration: none;
+  font-size: 3em;
+  padding: 10px 0px;
+}
+#head nav {
+  display: flex;
+  justify-content: center;
+  padding: 0px;
+}
+#head ul {
+  width: 70%;
+  display: inline-flex;
+  justify-content: space-around;
+  align-content: center;
+  padding: 0px;
+}
+#head li {
+  display: inline-flex;
+}
+#head a {
+  padding: 10px 20px;
+  border: 3px double #808080;
+}
+#head a:hover {
+  background-image: linear-gradient(to top, #ffffff, #808080);
+  background-repeat: no-repeat;
+  color: #ffffff;
+}
+.linear {
+  border: 3px double #808080;
+  margin-bottom: 20px;
+}
+.linear article:nth-of-type(1) .purple {
+  background-image: linear-gradient(to top, #ffffff, #800080);
+  background-repeat: no-repeat;
+}
+.linear article:nth-of-type(1) .blue {
+  background-image: linear-gradient(to top, #ffffff, #0000ff);
+  background-repeat: no-repeat;
+}
+.linear article:nth-of-type(1) .green {
+  background-image: linear-gradient(to top, #ffffff, #008000);
+  background-repeat: no-repeat;
+}
+.linear article:nth-of-type(1) .yellow {
+  background-image: linear-gradient(to top, #ffffff, #ffff00);
+  background-repeat: no-repeat;
+}
+.linear article:nth-of-type(1) .orange {
+  background-image: linear-gradient(to top, #ffffff, #ffa500);
+  background-repeat: no-repeat;
+}
+.linear article:nth-of-type(1) .red {
+  background-image: linear-gradient(to top, #ffffff, #ff0000);
+  background-repeat: no-repeat;
+}
+.linear article:nth-of-type(2) .purple {
+  background-image: linear-gradient(to left, #ffffff, #800080);
+}
+.linear article:nth-of-type(2) .blue {
+  background-image: linear-gradient(to left, #ffffff, #0000ff);
+}
+.linear article:nth-of-type(2) .green {
+  background-image: linear-gradient(to left, #ffffff, #008000);
+}
+.linear article:nth-of-type(2) .yellow {
+  background-image: linear-gradient(to left, #ffffff, #ffff00);
+}
+.linear article:nth-of-type(2) .orange {
+  background-image: linear-gradient(to left, #ffffff, #ffa500);
+}
+.linear article:nth-of-type(2) .red {
+  background-image: linear-gradient(to left, #ffffff, #ff0000);
+}
+.linear article:nth-of-type(3) .purple {
+  background-image: linear-gradient(to top left, #ffffff, #800080);
+}
+.linear article:nth-of-type(3) .blue {
+  background-image: linear-gradient(to top left, #ffffff, #0000ff);
+}
+.linear article:nth-of-type(3) .green {
+  background-image: linear-gradient(to top left, #ffffff, #008000);
+}
+.linear article:nth-of-type(3) .yellow {
+  background-image: linear-gradient(to top left, #ffffff, #ffff00);
+}
+.linear article:nth-of-type(3) .orange {
+  background-image: linear-gradient(to top left, #ffffff, #ffa500);
+}
+.linear article:nth-of-type(3) .red {
+  background-image: linear-gradient(to top left, #ffffff, #ff0000);
+}
+.innerContainer {
+  padding: 0px;
+  width: 100%;
+  height: 100%;
+  display: inline-flex;
+  flex-direction: row;
+  justify-content: center;
+  padding-bottom: 20px;
+}
+.innerContainer div {
+  position: relative;
+  padding: 0px;
+  width: 15%;
+  border-radius: 15%;
+  padding-bottom: 15%;
+}
+.innerContainer div div {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+.radial {
+  border: 3px double #808080;
+  margin-bottom: 20px;
+}
+.radial article .purple {
+  background-image: radial-gradient(circle, #800080 5%, #ffffff);
+}
+.radial article .blue {
+  background-image: radial-gradient(circle, #0000ff 5%, #ffffff);
+}
+.radial article .green {
+  background-image: radial-gradient(circle, #008000 5%, #ffffff);
+}
+.radial article .yellow {
+  background-image: radial-gradient(circle, #ffff00 5%, #ffffff);
+}
+.radial article .orange {
+  background-image: radial-gradient(circle, #ffa500 5%, #ffffff);
+}
+.radial article .red {
+  background-image: radial-gradient(circle, #ff0000 5%, #ffffff);
+}

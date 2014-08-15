@@ -1,0 +1,110 @@
+    *{
+        margin: 0px;
+        padding: 0px;
+        font-family: Calibri;
+    }
+    body {
+
+    }
+    .all{
+        width: 500px;
+        height: 200px;
+        margin: 20px;
+        border-bottom: double blue 8px;
+        border-right: green solid 12px;
+        border-left: red dashed 5px;
+        border-top: yellow dotted 5px;
+    }
+    .head{
+        width: 100%;
+        font-size: 2.5em;
+        text-align: center;
+        text-shadow: 7px 7px 7px #404040;
+    }
+    .firstAround{
+        width: 450px;
+        height: 100px;
+        margin: 18px 0px 0px 20px;
+        border: blue solid 5px;
+        border-radius: 60px;
+
+    }
+    .secondAround{
+        width: 440px;
+        height: 90px;
+        border: green solid 5px;
+        border-radius: 55px;
+    }
+    .thirdAround{
+        width: 430px;
+        height: 80px;
+        border: yellow solid 5px;
+        border-radius: 50px;
+
+    }
+    .like{
+        width: 100%;
+        text-align: center;
+        font-size: 1.2em;
+        padding: 10px 0px 0px 0px;
+    }
+    .firstButton{
+        display: inline-block;
+        float: left;
+        width: 150px;
+        text-align: center;
+        margin: 10px 10px 0px 45px;
+        font-size: 0.8em;
+        background-color: #D8921A;
+        border:5px outset #ff9900;
+    }
+    .secondButton{
+        display: inline-block;
+        float: left;
+        width: 150px;
+        text-align: center;
+        margin: 10px 0px 0px 10px;
+        font-size: 0.8em;
+        background-color: #D8921A;
+        border:5px outset #ff9900;
+    }
+    .littleCircle{
+        position: relative;
+        width: 10px;
+        height: 10px;
+        top: -65px;
+        left: 400px;
+        background-color: gray;
+        border-radius: 10px;
+        border: dashed white 2px;
+        opacity: 0.7;
+        box-shadow: 0px 0px 0px 6px gray;
+    }
+    .circle{
+        position: relative;
+        width: 25px;
+        height: 25px;
+        top: -120px;
+        left: 420px;
+        background-color: gray;
+        border-radius: 25px;
+        border: dashed white 2px;
+        opacity: 0.7;
+        box-shadow: 0px 0px 0px 6px gray;
+    }
+    .ellipse{
+        position: relative;
+        width: 125px;
+        height: 65px;
+        top: -200px;
+        left: 470px;
+        text-align: center;
+        color: white;
+        font-weight: bolder;
+        font-size: 25px;
+        background-color: gray;
+        border-radius: 65px;
+        border: dashed white 2px;
+        opacity: 0.7;
+        box-shadow: 0px 0px 0px 6px gray;
+    }

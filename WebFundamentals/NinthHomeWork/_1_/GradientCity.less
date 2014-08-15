@@ -1,0 +1,302 @@
+  @base: rgb(128,128,128);
+  .VerticalGradient (@color:white){
+    background-image: linear-gradient( to top, white, @arguments);
+    background-repeat: no-repeat;
+  }
+  .HorizontalGradient(@color){
+    background-image: linear-gradient(to left, white,@arguments);
+  }
+  .DiagonalGradient(@color){
+    background-image: linear-gradient(to top left, white,@arguments);
+  }
+  .RadialGradient(@color){
+    background-image: radial-gradient(circle, @arguments 5%, white);
+  }
+  .DoubledBorder{
+    border: 3px double @base;
+  }
+  .SingleBorder{
+    border: 1px solid @base;
+  }
+  .Div{
+    position: relative;
+    padding: 0px;
+    width: 15%;
+    border-radius: 15%;
+    padding-bottom: 15%;
+    div{
+      position: absolute;
+      top: 0; bottom: 0; left: 0; right: 0;
+    }
+  }
+
+  *{
+    margin: 0px;
+    padding: 0px;
+    font-size: 15px;
+    padding: 20px;
+    font-family: Arial;
+  }
+
+  body{
+    width: 100%;
+    height: 100%;
+    .DiagonalGradient(@base);
+    padding: 0px;
+  }
+
+  h1{
+    font-size: 2em;
+    padding-bottom: 15px;
+    text-align: center;
+    color: @base;
+    text-decoration: underline;
+  }
+
+  h2{
+    font-weight: lighter;
+    font-size: 1.1em;
+    color: @base;
+    text-align: center;
+    padding: 0px;
+  }
+
+  a{
+    font-size: 1.2em;
+    text-decoration: none;
+    color: @base;
+  }
+
+  li{
+    display: inline-flex;
+    list-style: none;
+  }
+
+  article{
+    .SingleBorder;
+    margin-bottom: 10px;
+    padding: 0px;
+  }
+
+  footer{
+    display: flex;
+    flex-direction: column;
+    padding: 0px;
+
+    h3{
+      width: 100%;
+      text-align: center;
+      padding: 0px;
+    }
+
+    ul{
+      display: flex;
+      flex-direction: column;
+      li{
+        display: flex;
+        padding: 0px;
+        justify-content: center;
+        a{
+          padding: 5px;
+        }
+      }
+    }
+  }
+
+  #wrapper{
+    .DoubledBorder;
+    display: block;
+    margin: 0px auto;
+    width: 80%;
+    background-color: #ffffff;
+  }
+
+  #head{
+    display: block;
+    margin: 0px auto;
+    justify-content: space-around;
+    margin-bottom: 20px;
+    .DoubledBorder;
+    padding: 0px;
+    h1{
+      display: block;
+      margin: 0px auto;
+      text-decoration: none;
+      font-size: 3em;
+      padding: 10px 0px;
+    }
+
+    nav{
+      display: flex;
+      justify-content: center;
+      padding: 0px;
+    }
+
+    ul{
+      width: 70%;
+      display: inline-flex;
+      justify-content: space-around;
+      align-content: center;
+      padding: 0px;
+    }
+
+    li{
+      display: inline-flex;
+    }
+
+    a{
+      padding: 10px 20px;
+      .DoubledBorder;
+    }
+
+    a:hover{
+      .VerticalGradient(@base);
+      color: #ffffff;
+    }
+
+  }
+
+  .linear {
+    .DoubledBorder;
+    margin-bottom: 20px;
+    article:nth-of-type(1) {
+      .purple{
+        .VerticalGradient(purple);
+      }
+
+      .blue{
+        .VerticalGradient(blue);
+      }
+
+      .green{
+        .VerticalGradient(green);
+      }
+
+      .yellow{
+
+        .VerticalGradient(yellow);
+      }
+
+      .orange {
+        .VerticalGradient(orange);
+      }
+      .red{
+        .VerticalGradient(red);
+      }
+    }
+    article:nth-of-type(2) {
+      .purple{
+        .HorizontalGradient(purple);
+      }
+
+      .blue{
+        .HorizontalGradient(blue);
+      }
+
+      .green{
+        .HorizontalGradient(green);
+      }
+
+      .yellow{
+
+        .HorizontalGradient(yellow);
+      }
+
+      .orange {
+        .HorizontalGradient(orange);
+      }
+      .red{
+        .HorizontalGradient(red);
+      }
+    }
+    article:nth-of-type(3) {
+      .purple{
+        .DiagonalGradient(purple)
+      }
+
+      .blue{
+        .DiagonalGradient(blue);
+      }
+
+      .green{
+        .DiagonalGradient(green);
+      }
+
+      .yellow{
+
+        .DiagonalGradient(yellow);
+      }
+
+      .orange {
+        .DiagonalGradient(orange);
+      }
+      .red{
+        .DiagonalGradient(red);
+      }
+    }
+  }
+  .innerContainer {
+    padding: 0px;
+    width: 100%;
+    height: 100%;
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-bottom: 20px;
+    div{
+      .Div
+    }
+  }
+  .purple{
+
+  }
+
+  .blue{
+
+  }
+
+  .green{
+
+  }
+
+  .yellow{
+
+  }
+
+  .orange{
+
+  }
+
+  .red{
+
+  }
+
+  .radial{
+    .DoubledBorder;
+    margin-bottom: 20px;
+      article {
+        .purple{
+          .RadialGradient(purple);
+        }
+
+        .blue{
+          .RadialGradient(blue);
+        }
+
+        .green{
+          .RadialGradient(green);
+        }
+
+        .yellow{
+
+          .RadialGradient(yellow);
+        }
+
+        .orange {
+          .RadialGradient(orange);
+        }
+        .red{
+          .RadialGradient(red);
+        }
+      }
+  }

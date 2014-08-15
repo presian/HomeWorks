@@ -1,0 +1,172 @@
+    *{
+        margin: 0px;
+        padding: 0px;
+        font-family: Calibri;
+    }
+    body {
+
+    }
+    table{
+        border: 2px solid black;
+        border-radius: 20px;
+        border-spacing: 0px;
+        background: white;
+        width: 1170px;
+        height: 400px;
+        margin: auto;
+    }
+    table th{
+        border: solid 1px black;
+        background-color: greenyellow;
+        font-size: 35px;
+        font-weight: bolder;
+        padding: 5px;
+    }
+    table th:first-child{
+        border-top-left-radius: 17px;
+
+    }
+    table th:last-child{
+        border-top-right-radius: 17px;
+    }
+    table td{
+        border: 1px solid black;
+        font-size: 25px;
+        text-align: center;
+    }
+    table td:nth-child(1){
+        width: 200px;
+        text-align: right;
+        padding: 5px;
+    }
+    table td:nth-child(2){
+        width: 50px;
+        padding: 5px;
+    }
+    table td:nth-child(3){
+        width: 200px;
+        text-align: left;
+        padding: 5px;
+    }
+    table td:nth-child(4){
+        width: 50px;
+        padding: 5px;
+    }
+    table td:nth-child(5){
+        text-align: right;
+        padding: 5px;
+        width: 165px;
+    }
+    table td:nth-child(7){
+        text-align: left;
+        padding: 5px;
+        width: 165px;
+    }
+    table tr:nth-child(1) td:nth-child(1) div.flag{
+        display: inline-block;
+        float: right;
+        vertical-align: middle;
+        margin: 5px;
+        content: url("Flag_20x20_Brazil.png");
+    }
+    table tr:nth-child(1) td:nth-child(3) div.flag{
+        display: inline-block;
+        float: left;
+        vertical-align: middle;
+        margin: 5px;
+        content: url("Flag_20x20_Mexico.png");
+    }
+    table tr:nth-child(2) td:nth-child(1) div.flag{
+        display: inline-block;
+        float: right;
+        vertical-align: middle;
+        margin: 5px;
+        content: url("Flag_20x20_Spain.png");
+    }
+    table tr:nth-child(2) td:nth-child(3) div.flag {
+        display: inline-block;
+        float: left;
+        vertical-align: middle;
+        margin: 5px;
+        content: url("Flag_20x20_Netherlands.png");
+    }
+    table tr:nth-child(3) td:nth-child(1) div.flag{
+        display: inline-block;
+        float: right;
+        vertical-align: middle;
+        margin: 5px;
+        content: url("Flag_20x20_Italy.png");
+    }
+    table tr:nth-child(3) td:nth-child(3) div.flag{
+        display: inline-block;
+        float: left;
+        vertical-align: middle;
+        margin: 5px;
+        content: url("flag-england-flagge-quadratisch-20x20.gif");
+    }
+    table tr:nth-child(4) td:nth-child(1) div.flag{
+        display: inline-block;
+        float: right;
+        vertical-align: middle;
+        margin: 5px;
+        content: url("Flag_20x20_Argentina.png");
+    }
+    table tr:nth-child(4) td:nth-child(3) div.flag{
+        display: inline-block;
+        float: left;
+        vertical-align: middle;
+        margin: 5px;
+        content: url("Bosnia.png");
+    }
+    table tr:nth-child(5) td:nth-child(1) div.flag{
+        display: inline-block;
+        float: right;
+        vertical-align: middle;
+        margin: 5px;
+        content: url("flag_germany.jpg");
+    }
+    table tr:nth-child(5) td:nth-child(3) div.flag{
+        display: inline-block;
+        float: left;
+        vertical-align: middle;
+        margin: 5px;
+        content: url("Flag_20x20_Portugal.png");
+    }
+    table tr:nth-child(5) td:nth-child(1){
+        border-bottom-left-radius: 17px;
+    }
+    table tr:nth-child(5) td:last-child{
+        border-bottom-right-radius: 17px;
+    }
+    table tr:nth-child(even){
+        background-color: #c8c8c8;
+    }
+    select:disabled{
+        font-size: 20px;
+        color: red;
+        width: 48px;
+        background-color: #dcdcdc;
+    }
+    select{
+        width: 48px;
+        font-size: 20px;
+        color: darkgreen;
+    }
+    .green{
+        background: url("green-btn.png");
+        height: 46px;
+        width: 46px;
+        border-radius: 30px;
+    }
+    .red{
+        background: url("red-btn.png");
+        height: 46px;
+        width: 46px;
+        border-radius: 30px;
+    }
+    .all{
+        display: inline-block;
+        padding: 10px;
+        background-color: green;
+
+    }

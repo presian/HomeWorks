@@ -1,0 +1,140 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: Arial;
+}
+body {
+  background-color: black;
+}
+header {
+  width: 900px;
+  height: 270px;
+  background-image: url("../images/_4_/headerBackground.jpg");
+  background-repeat: no-repeat;
+}
+#head {
+  color: white;
+  font-size: 1.7em;
+  font-weight: bolder;
+  float: right;
+  position: relative;
+  top: 200px;
+  right: 70px;
+}
+#nav {
+  background-color: #dfdfdf;
+  height: 54px;
+}
+#nav ul {
+  height: 50px;
+  border-bottom: 2px solid #ffffff;
+}
+#nav ul li:nth-child(1) {
+  background-color: #b8b8b8;
+}
+#nav ul li:nth-child(1) a {
+  color: white;
+}
+#nav ul li {
+  padding: 15px 40px 15px 40px;
+  float: left;
+  display: inline-block;
+  text-align: center;
+  background-color: #dfdfdf;
+  border-bottom: 2px solid #ffffff;
+  border-right: 2px solid #ffffff;
+}
+#nav ul li a {
+  color: #626175;
+  text-decoration: none;
+}
+#all {
+  display: block;
+  width: 900px ;
+  height: auto;
+  margin: 0px auto;
+  background-color: white;
+}
+h2 {
+  position: inherit;
+  color: #84be19;
+  margin: 5px 0px 20px 0px;
+}
+h3 {
+  font-size: 1em;
+}
+main {
+  position: inherit;
+  width: 70%;
+  display: inline-block;
+  vertical-align: top;
+}
+main section {
+  position: inherit;
+  margin: 25px 35px 25px 35px;
+  padding: 15px;
+  border: #dbdbdb 2px solid;
+  border-radius: 10px;
+  text-align: justify;
+}
+main section img {
+  vertical-align: top;
+}
+main section article {
+  position: inherit;
+  display: inline-block;
+  width: 67%;
+  font-size: 0.8em;
+  margin: 0px 0px 30px 0px;
+}
+main section article:last-of-type {
+  margin: 0px;
+}
+main #welcome span:first-of-type {
+  font-weight: bold;
+}
+aside {
+  width: 21%;
+  display: inline-block;
+}
+aside a {
+  color: #84be19;
+}
+aside div:first-of-type {
+  position: inherit;
+  background-color: #dfdfdf;
+  text-align: justify;
+  vertical-align: top;
+}
+aside div {
+  width: 100%;
+  position: inherit;
+  margin: 25px 35px 25px 0px;
+  border: #dbdbdb 2px solid;
+  border-radius: 10px;
+  text-align: left;
+  padding: 15px;
+}
+aside div h3 {
+  margin: 20px 0px 0px 0px;
+}
+footer {
+  position: inherit;
+  width: 100%;
+  height: 100px;
+  background-color: #94cb2f;
+  padding-top: 3px;
+}
+footer div {
+  position: inherit;
+  vertical-align: bottom;
+  width: 100%;
+  height: 95px;
+  border-top: solid 1px #ffffff;
+}
+footer div p {
+  position: relative;
+  font-size: 0.8em;
+  left: 120px;
+  top: 40px;
+}

@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+    <head lang="en">
+        <meta charset="UTF-8">
+        <title>_4_Semantic</title>
+        <link type="text/css" rel="stylesheet" href="_4_Semantic.css">
+    </head>
+    <body>
+        <header class="head">
+            <h1>BGJUG - Bulgarian Java User Group</h1>
+            <nav>
+                <ul id="nav">
+                    <li>ABOUT</li>
+                    <li>EVENTS</li>
+                    <li>CONTACTS</li>
+                </ul>
+                <input id="searchButton" type="image" src="search-without-text-hi.png" alt="submit" width="22px">
+                <input type="search">
+            </nav>
+            <hr>
+        </header>
+        <div class="all">
+            <aside class="leftSideBar">
+                <hr>
+                <ul>
+                    <li><a href="">An Architecture for E-Voting</a></li>
+                    <li><a href="">Integration Test for External Services</a></li>
+                    <li><a href="">Algorithmic Music Influenced by Tweets</a></li>
+                    <li><a href="">Low Quality of Scientific Code</a></li>
+                    <li><a href="">Development "Methodologies"</a></li>
+                </ul>
+            </aside>
+            <main class="articles">
+                <article class="singleArticles">
+                    <h2>An Architecture for E-Voting</h2>
+                    <p class="underArticle">by <a class="bozho" href="">BOZHO</a>  on MAY 27, 2014 <a class="bozho" href="">LEAVE A COMMENT</a></p>
+                    <p>
+                        E-voting is a hot topic in my country,and has been discussed a lot everywhere.
+                        Since we are already using the internet and touch-screen technologies in our everyday lives,
+                        why not apply that to voting? And not for the sake of technology itself, but in order to
+                        prevent technical mistakes and election fraud, and make [...]
+                    </p>
+                    <a class="continue" href="">Continue Reading →</a>
+                </article>
+                <article class="singleArticles">
+                    <h2>The Optional Type API</h2>
+                    <p class="underArticle">by <a class="bozho" href="">BOZHO</a> on MARCH 19, 2014 <a class="bozho" href="">LEAVE A COMMENT</a></p>
+                    <p>
+                        Java 8 introduces the Optional class. In a nutshell, instead of returning null,
+                        and then checking for null, you return an Optional instance, which can either have
+                        or not have a value set. That way you don’t fail with NullPointerException. I won’t
+                        discuss whether the Optional type will eliminate NPEs completely (it won’t). Instead I’ll […]
+                    </p>
+                    <a  class="continue" href="">Continue Reading →</a>
+                </article>
+                <a class="previous" href="">← Previous Entries</a>
+            </main>
+            <aside class="rightSideBar">
+                <a href="">LANGUAGE</a>
+                <hr>
+                <select id="languaga">
+                    <option selected>Bulgarian</option>
+                    <option>English</option>
+                    <option>Deutsch</option>
+                </select>
+                <a href="">BLOGROLL</a>
+                <hr>
+            </aside>
+
+        </div>
+        <div id="twit">
+            <img src="tweet_blue.png">
+            <p>Set your Twitter account name in your settings to use the TwitterBar Section</p>
+        </div>
+        <footer class="footer">
+            <div id="name">
+                <h2>BGJUG - Java Bulgarian User Group</h2>
+            </div>
+            <div id="pages">
+                <h4>PAGES</h4>
+                <ul>
+                    <li><a href="">About</a></li>
+                    <li><a href="">Events</a></li>
+                    <li><a href="">Contacts</a></li>
+                </ul>
+            </div>
+            <div id="latest">
+                <h4>THE LATEST</h4>
+                <p>E-voting is a hot topic in my country,and has been discussed<a idhref="">[...]</a> </p>
+            </div>
+            <div id="more">
+                <h4>MORE</h4>
+                <p>Thanks for dropping by! Feel free to join the discussion by leaving comments and stay updated by subscribing the <a href="">RSS Feed</a></p>
+            </div>
+            <div id="copy">
+                <p>&copy;2011 BGJUG - Java Bulgarian User Group</p>
+        </footer>
+    </body>
+</html>

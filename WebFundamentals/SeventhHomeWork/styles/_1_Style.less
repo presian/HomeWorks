@@ -1,0 +1,129 @@
+  @base:#234465;
+  @menu:@base*1.2;
+  @bordermenu:@base*1.6;
+  *{
+    margin: 0px;
+    padding: 0px;
+    color: white;
+    font-family: 'PT Sans', Tahoma, sans-serif;
+    text-decoration: none;
+  }
+  body{
+
+   }
+  header{
+    height: 110px;
+    background: @base;
+    padding-left: 30px;
+    padding-right: 30px;
+    #logo{
+      height: 85px;
+      width: 255px;
+      float: left;
+      display: inline-block;
+      img{
+        display: inline-block;
+        float: left;
+        width: 255px;
+        height: 65px;
+        margin: 20px 0px 0px 0px;
+      }
+      p{
+        position: absolute;
+        top: -5px;
+        left: 260px;
+        color: white;
+        font-size: 0.7em;
+        padding: 30px 0px 0px 0px;
+      }
+    }
+    #navi{
+      float: right;
+      width: 800px;
+      height: 110px;
+      vertical-align: top;
+      ul{
+
+        list-style: none;
+        padding-top: 20px;
+        li{
+          display: inline-block;
+          padding-left: 20px;
+          ul{
+            display: none;
+          }
+        }
+        li:hover{
+          ul{
+            display: block;
+            position: absolute;
+            margin: 0;
+            padding: 5px;
+            background: @menu;
+            border: 1px solid @bordermenu;
+            border-radius: 5px;
+            li{
+              display: block;
+              width: auto;
+              text-align: left;
+              float: none;
+            }
+          }
+        }
+        li:nth-child(1){
+          float: right;
+          #search{
+            display: inline-block;
+            float: right;
+            width: 200px;
+            height: 25px;
+            background: white;
+            border-radius: 3px;
+          }
+          input{
+            display: inline-block;
+            float: right;
+            height: 25px;
+            width: 174px;
+            border:none;
+            border-right: 1px solid #d5d5d5;
+          }
+          button{
+            display: inline-block;
+            float: right;
+            width: 25px;
+            height: 25px;
+            background: transparent;
+            background-position: 4px 5px;
+            background-image: url("../images/magn-glass-icon17.png");
+            background-repeat: no-repeat;
+            border: none;
+
+          }
+        }
+        li:nth-child(2){
+          float: right;
+        }
+        li:nth-child(3){
+          float: right;
+          a{
+            vertical-align: top;
+            padding-right: 10px;
+          }
+        }
+        #secondRow{
+          float: right;
+          display: block;
+          margin: 20px 0px 0px 0px;
+          li{
+            float: left;
+            ul{
+              li{
+                float: none;
+              }
+            }
+          }
+        }
+      }
+    }
+  }

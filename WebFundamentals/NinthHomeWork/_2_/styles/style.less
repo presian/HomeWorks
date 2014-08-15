@@ -1,0 +1,52 @@
+
+  @-webkit-keyframes Shaky {
+
+    0% {
+      right: 2px;
+      top: 2px;
+    }
+    2% {
+      left: 2px;
+      bottom: 2px;
+    }
+
+    100%{
+      -webkit-transform: rotate(360deg);
+
+    }
+  }
+  *{
+    padding: 0px;
+    margin: 0px;
+    font-size: 15px;
+  }
+  .wrapper{
+    display: block;
+    margin: 0px auto;
+    width: 60%;
+    background-color: rgb(221,221,221);
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 3px 3px black;
+  }
+  .inner{
+    height: 100%;
+    display: inline-flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .pic{
+    position: relative;
+    padding: 5px;
+    margin: 8px;
+    width: 31%;
+    background-color: #ffffff;
+    img{
+      width: 100%;
+    }
+  }
+  .pic:hover{
+//    -webkit-animation: shake 5s;
+    -webkit-animation: Shaky 5s;
+
+  }

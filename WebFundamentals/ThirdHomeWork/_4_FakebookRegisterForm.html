@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html>
+    <head lang="en">
+        <meta charset="UTF-8">
+        <title>FakeBookRegisterForm</title>
+        <style>
+
+            .all{
+                width: 75%;
+                height: 75%;
+                background-color: mediumslateblue;
+                padding: 10px;
+
+            }
+            .head{
+                width: 100%;
+                height: 28%;
+            }
+            .theForm{
+                width: 100%;
+                height: 68%;
+                padding: 10px;
+
+            }
+            .non{
+                display: inline-block;
+                width: 39%;
+                vertical-align: top;
+            }
+            .important{
+                display: inline-block;
+                width: 59%;
+            }
+            h2{
+                font-size: 40px;
+                text-align: center;
+                color: white;
+                vertical-align: middle;
+                line-height: 40px;
+            }
+            h3{
+                text-align: center;
+                color: white;
+                vertical-align: middle;
+                line-height: 1px;
+            }
+            h4{
+                text-align: center;
+                color: white;
+                vertical-align: middle;
+                line-height: 1px;
+            }
+            legend{
+                color: white;
+                text-align: center;
+            }
+            fieldset{
+                border: solid white 1px;
+                border-radius: 10px;
+            }
+            .input3{
+                width: 17%;
+                border-radius: 5px;
+                height: 5%;
+                margin: 1%;
+            }
+            .input2{
+                width: 32%;
+                border-radius: 5px;
+                height: 5%;
+            }
+            .input{
+                width: 46%;
+                border-radius: 5px;
+                height: 5%;
+                margin: 1%;
+            }
+            .dateTime{
+                width: 75%;
+                margin: 1.9%;
+            }
+            select{
+                width: 32%;
+                border-radius: 5px;
+                height: 5%;
+            }
+            label{
+                color: white;
+                margin: 1%;
+            }
+            .label{
+                color: white;
+                width: 30%;
+            }
+            .button{
+                width: 98%;
+                margin: 1%;
+                color: blue;
+            }
+            textarea{
+                width: 98%;
+                height: 25%;
+
+            }
+            .color{
+                width: 32%;
+                border-radius: 5px;
+                height: 20px;
+            }
+
+        </style>
+
+    </head>
+    <body>
+        <div class="all">
+
+            <!--headre-->
+            <div class="head">
+                <h2>
+                    fakebook
+                </h2>
+                <h3>
+                    Registration
+                </h3>
+                <h4>
+                    It is safe and it will always be!
+                </h4>
+            </div>
+
+            <!--The form-->
+            <div class="theForm">
+
+                <!--First col-->
+                <div class="non">
+                    <fieldset>
+                        <legend>None-Important Information</legend>
+                        <input type="text" placeholder="First Name" class="input">
+                        <input type="text" placeholder="Last Name" class="input"><br>
+                        <input type="email" placeholder="Your Email" class="input">
+                        <input type="tel" placeholder="Phone Number" class="input"><br>
+                        <input type="password" placeholder="Your Password" class="input">
+                        <input type="url" placeholder="Your Website" class="input"><br>
+                        <label>Birthday</label><br>
+                        <input type="datetime-local" class="dateTime"><br>
+                        <input type="radio" name="gender" value="1" id="r1"/><label for="r1" class="label">Female</label>
+                        <input type="radio" name="gender" value="2" id="r2"/><label for="r2" class="label">Male</label>
+                        <input type="radio" name="gender" value="3" id="r3"/><label for="r3" class="label">Other</label>
+                    </fieldset>
+                    <div>
+                        <input type="reset" value="Clear Form" class="button">
+                    </div>
+                </div>
+
+                <!--Second col-->
+                <div class="important">
+                    <fieldset>
+                        <legend>Important Information* required</legend>
+                        <select>
+                            <option>Bulgaria</option>
+                            <option>USA</option>
+                            <option>Germany</option>
+                        </select>
+                        <input type="text" placeholder="Village" class="input2">
+                        <input type="text" placeholder="District" class="input2">
+                        <input type="text" placeholder="Street" class="input2">
+                        <input type="text" placeholder="Nr" class="input3">
+                        <input type="text" placeholder="Floor" class="input3">
+                        <input type="text" placeholder="Ap Nr" class="input3"><br>
+                        <label>Door Color</label><br>
+                        <input type="color" class="color">
+                        <input type="text" placeholder="Water Meter Nr" class="input2">
+                        <select>
+                            <option>Aunt Panties' Size</option>
+                            <option>S</option>
+                            <option>M</option>
+                            <option>L</option>
+                            <option>XL</option>
+                            <option>XXL</option>
+                        </select>
+                        <label>More Professional Information</label><br>
+                        <textarea placeholder="Give Us More Information!!!"></textarea>
+                    </fieldset>
+                    <div>
+                        <input type="submit" value="Register" class="button">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

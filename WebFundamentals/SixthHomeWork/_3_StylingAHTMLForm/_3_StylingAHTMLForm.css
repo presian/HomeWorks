@@ -1,0 +1,95 @@
+    *{
+        margin: 0px;
+        padding: 0px;
+        font-family: Calibri;
+    }
+    body {
+
+    }
+    #all{
+        display: inline-block;
+        width: 45%;
+        height: 800px;
+        margin: 10px;
+        background-image: url("formBackground.jpg");
+        background-repeat: no-repeat;
+        border-radius: 10px;
+
+    }
+    .firstStep{
+        display: inline-block;
+        float: left;
+        width: 90%;
+        padding: 10px 20px 0px 20px;
+        border: none;
+    }
+    h2{
+        margin: 0px 0px 10px 0px;
+        display: block;
+        float: left;
+        color: white;
+        font-weight: bolder;
+    }
+    label{
+        margin: 2px 0px 0px 5px;
+        display: inline-block;
+        width: 135px;
+        font-size: 1.2em;
+    }
+    input{
+        width: 270px;
+        height: 30px;
+        border: none;
+        border-radius: 3px;
+        display: inline-block;
+        vertical-align: top;
+        font-size: 1em;
+
+    }
+    input
+    .out{
+        display: block;
+        float: left;
+        margin: 1px 0px 1px 0px;
+        padding: 5px;
+        width: 100%;
+        border: 2px white ridge;
+        border-radius: 10px;
+        background-color: rgba(192,192,192,0.4);
+    }
+    .addressLabel{
+        vertical-align: top;
+    }
+    textarea{
+        width: 270px;
+        border-radius: 4px;
+    }
+    .card{
+        width: 15px;
+    }
+    .cardLabel{
+        width: 90px;
+        vertical-align: top;
+        margin: 2px 0px 0px 0px;
+    }
+    #cards{
+        padding: 10px 0px 0px 20px;
+    }
+    .cardLogos{
+        margin: 4px 0px 0px 0px;
+    }
+    .button{
+        width: 90%;
+        margin: 20px;
+    }
+    fieldset:nth-child(3){
+        margin: 0px 0px 20px 0px;
+    }
+    #buy{
+        background-color: darkblue;
+        border-radius: 25px;
+        width: 100px;
+        color: white;
+        display: block;
+        margin: 0px auto;
+    }

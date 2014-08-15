@@ -1,0 +1,171 @@
+    body {
+        width: 960px;
+        border: solid 1px gray;
+    }
+    .head{
+        width: 960px;
+        padding: 0px 0px 0px 0px;
+    }
+    h1{
+        width: 920px;
+        margin: 20px 0px 20px 0px;
+        padding: 0px 0px 0px 20px;
+    }
+    nav{
+        margin: 0px 20px 0px 0px;
+    }
+    #nav {
+        display: inline-block;
+        margin: 0px 0px 2px 20px;
+        padding: 0px;
+    }
+    #nav > li{
+        padding: 0px 20px 0px 0px;
+        list-style: none;
+        display: inline-block;
+    }
+    input{
+        float: right;
+    }
+    #searchButton{
+
+        float: right;
+        margin: 1.5px 0px 0px 0px;
+    }
+    .head  hr{
+        width: 918px;
+        height: 1px;
+        margin: 8px 0px 8px 20px;
+    }
+    .all{
+        width: 960px;
+        height: 550px;
+        display: inline-block;
+    }
+    .leftSideBar{
+        float: left;
+        display: inline-block;
+        width: 175px;
+        height: 500px;
+        margin: 0px 20px 0px 0px;
+    }
+    .leftSideBar ul{
+        padding: 20px 0px 20px 20px;
+    }
+    .leftSideBar li{
+        font-size: 17px;
+        list-style: none;
+        padding: 0px 0px 10px 0px;
+    }
+    .leftSideBar a{
+        text-decoration: none;
+    }
+    .leftSideBar hr{
+        width: 135px;
+        margin: 50px 0px 0px 20px;
+    }
+    .rightSideBar{
+        float: right;
+        width: 175px;
+        margin: 20px 20px 0px 0px;
+        padding: 0px 0px 0px 10px;
+        display: inline-block;
+    }
+    .rightSideBar select{
+        display: block;
+        margin: 0px 0px 15px 0px;
+    }
+    .articles{
+        display: inline-block;
+        float: left;
+        width: 500px;
+        margin: 0px 20px 0px 0px;
+    }
+    .underArticle{
+        font-size: 12px;
+
+    }
+    .bozho{
+        text-decoration: underline;
+        color: gray;
+    }
+    .continue{
+        display: block;
+    }
+    .previous{
+        display: block;
+        margin: 50px 0px 0px 0px;
+    }
+    .footer{
+        width: 960px;
+        background-color: black;
+        color: white;
+    }
+    .footer a{
+        color: white;
+        text-decoration: none;
+        font-weight: bold;
+    }
+    .footer p{
+        color: gray;
+    }
+
+    #name{
+        display: inline-block;
+        color: white;
+        width: 150px;
+        vertical-align: top;
+        margin: 10px 20px 10px 10px;
+    }
+    #pages{
+        display: inline-block;
+        color: white;
+        width: 100px;
+        vertical-align: top;
+        margin: 10px 20px 10px 10px;
+    }
+    #pages >ul{
+        list-style: none;
+        padding: 0px;
+
+    }
+    #latest{
+        display: inline-block;
+        width: 150px;
+        color: white;
+        vertical-align: top;
+        margin: 10px 20px 10px 10px;
+    }
+    #more{
+        display: inline-block;
+        width: 150px;
+        color: white;
+        vertical-align: top;
+        margin: 10px 20px 10px 10px;
+    }
+    #copy{
+        display: inline-block;
+        width: 150px;
+        color: white;
+        vertical-align: top;
+        margin: 10px 10px 10px 10px;
+    }
+    #twit{
+        vertical-align: bottom;
+        display: inline-block;
+        width: 100%;
+        height: 25px;
+        background-color: papayawhip;
+        margin: 10px 0px 0px 0px;
+    }
+    #twit img{
+        display: inline-block;
+        vertical-align: middle;
+    }
+    #twit p{
+        margin: 0px 0px 0px 0px;
+        display: inline-block;
+        vertical-align: middle;
+        font-style: italic;
+        color: burlywood;
+    }

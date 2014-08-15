@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+    <head lang="en">
+        <meta charset="UTF-8">
+        <title>_3_StylingAHTMLForm</title>
+        <link rel="stylesheet" type="text/css" href="_3_StylingAHTMLForm.css">
+    </head>
+    <body>
+        <div id="all">
+            <form>
+
+                <!--Your details-->
+                <fieldset class="firstStep">
+                    <h2>Step 1: Your details</h2>
+                    <div class="out">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" placeholder=" First and Last name"/>
+                    </div>
+                    <div class="out">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" placeholder=" example@domain.com"/>
+                    </div>
+                    <div class="out">
+                        <label for="phone">Phone</label>
+                        <input type="text" id="phone" placeholder=" eg. +447500000000"/>
+                    </div>
+                </fieldset>
+
+                <!--Address-->
+                <fieldset class="firstStep">
+                    <h2>Step 1: Delivery address</h2>
+                    <div class="out">
+                        <label for="address" class="addressLabel">Address</label>
+                        <textarea id="address" rows="7"></textarea>
+                    </div>
+                    <div class="out">
+                        <label for="post">Post code</label>
+                        <input type="text" id="post"/>
+                    </div>
+                    <div class="out">
+                        <label for="country">Country</label>
+                        <input type="text" id="country"/>
+                    </div>
+                </fieldset>
+
+                <!--Card-->
+                <fieldset class="firstStep">
+                    <h2>Step 1: Card details</h2>
+                    <div class="out">
+                        <label for="cards" clas="addressLabel">Card type</label>
+                        <div id="cards">
+                            <input type="radio" name="card" class="card" id="visa">
+                            <img src="images/visa-card.png" class="cardLogos"><label class="cardLabel" for="visa">VISA</label>
+                            <input type="radio" name="card" class="card" id="amex">
+                            <img src="images/card-amex.png" class="cardLogos"><label class="cardLabel" for="amex">AmEx</label>
+                            <input type="radio" name="card" class="card" id="master">
+                            <img src="images/mastercard.JPG" class="cardLogos"><label class="cardLabel" for="master">Mastercard</label>
+                        </div>
+                    </div>
+                    <div class="out">
+                        <label for="cardNumber">Card number</label>
+                        <input type="text" id="cardNumber"/>
+                    </div>
+                    <div class="out">
+                        <label for="securityCode">Security code</label>
+                        <input type="text" id="securityCode"/>
+                    </div>
+                    <div class="out">
+                        <label for="nameOnCard">Name on card</label>
+                        <input type="text" id="nameOnCard" placeholder=" exact name on the card"/>
+                    </div>
+                </fieldset>
+
+                <!--Button-->
+                <input type="button" value="BUY IT!" id="buy">
+
+            </form>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,25 @@
+    body {
+        width: 150px;
+    }
+    aside{
+        width: 145px;
+    }
+    #leftHr{
+        height: 30px;
+    }
+    hr{
+        margin: 50px 0px 0px 0px;
+        width: 98%;
+    }
+    a{
+        text-decoration: none;
+        font-size: 16px;
+    }
+    ul{
+        padding: 0;
+    }
+    li{
+        list-style: none;
+        padding: 0px;
+        margin: 0px 0px 5px 0px;
+    }
