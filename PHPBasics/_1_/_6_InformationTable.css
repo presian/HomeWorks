@@ -1,0 +1,22 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	font-size: 25px;
+	font-family: monospace;
+}
+body{
+	padding: 200px;
+}
+table{
+	border: 1px solid black;
+	border-collapse: collapse;
+}
+td{
+	padding: 5px;
+	border: 1px solid black;
+
+}
+td:first-child{
+	font-weight: bolder;
+	background-color: green;
+}
