@@ -1,0 +1,2 @@
+D:\SoftUni\HomeWork\OOP\HomeWork_1\_1_LaptopShop\bin\Debug\_1_LaptopShop.exe.config
+D:\SoftUni\HomeWork\OOP\HomeWork_1\_1_LaptopShop\obj\Debug\_1_LaptopShop.csprojResolveAssemblyReference.cache

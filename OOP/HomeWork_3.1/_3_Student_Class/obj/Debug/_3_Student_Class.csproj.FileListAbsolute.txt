@@ -1,0 +1,12 @@
+C:\Users\presian\documents\visual studio 2013\Projects\HomeWork_3.1\_3_Student_Class\bin\Debug\_3_Student_Class.exe.config
+C:\Users\presian\documents\visual studio 2013\Projects\HomeWork_3.1\_3_Student_Class\bin\Debug\_3_Student_Class.exe
+C:\Users\presian\documents\visual studio 2013\Projects\HomeWork_3.1\_3_Student_Class\bin\Debug\_3_Student_Class.pdb
+C:\Users\presian\documents\visual studio 2013\Projects\HomeWork_3.1\_3_Student_Class\obj\Debug\_3_Student_Class.csprojResolveAssemblyReference.cache
+C:\Users\presian\documents\visual studio 2013\Projects\HomeWork_3.1\_3_Student_Class\obj\Debug\_3_Student_Class.exe
+C:\Users\presian\documents\visual studio 2013\Projects\HomeWork_3.1\_3_Student_Class\obj\Debug\_3_Student_Class.pdb
+D:\SoftUni\HomeWork\OOP\HomeWork_3.1\_3_Student_Class\bin\Debug\_3_Student_Class.exe.config
+D:\SoftUni\HomeWork\OOP\HomeWork_3.1\_3_Student_Class\obj\Debug\_3_Student_Class.exe
+D:\SoftUni\HomeWork\OOP\HomeWork_3.1\_3_Student_Class\obj\Debug\_3_Student_Class.pdb
+D:\SoftUni\HomeWork\OOP\HomeWork_3.1\_3_Student_Class\bin\Debug\_3_Student_Class.exe
+D:\SoftUni\HomeWork\OOP\HomeWork_3.1\_3_Student_Class\bin\Debug\_3_Student_Class.pdb
+D:\SoftUni\HomeWork\OOP\HomeWork_3.1\_3_Student_Class\obj\Debug\_3_Student_Class.csprojResolveAssemblyReference.cache

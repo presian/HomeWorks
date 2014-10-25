@@ -1,0 +1,6 @@
+D:\SoftUni\HomeWork\OOP\HomeWork_2.1\_1_Point_3D\bin\Debug\_1_Point_3D.exe.config
+D:\SoftUni\HomeWork\OOP\HomeWork_2.1\_1_Point_3D\obj\Debug\_1_Point_3D.csprojResolveAssemblyReference.cache
+D:\SoftUni\HomeWork\OOP\HomeWork_2.1\_1_Point_3D\bin\Debug\_1_Point_3D.exe
+D:\SoftUni\HomeWork\OOP\HomeWork_2.1\_1_Point_3D\bin\Debug\_1_Point_3D.pdb
+D:\SoftUni\HomeWork\OOP\HomeWork_2.1\_1_Point_3D\obj\Debug\_1_Point_3D.exe
+D:\SoftUni\HomeWork\OOP\HomeWork_2.1\_1_Point_3D\obj\Debug\_1_Point_3D.pdb

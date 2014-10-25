@@ -1,0 +1,6 @@
+D:\SoftUni\HomeWork\OOP\HomeWork_6\_2_Bank_Of_Kurtovo_Konare\bin\Debug\_2_Bank_Of_Kurtovo_Konare.exe.config
+D:\SoftUni\HomeWork\OOP\HomeWork_6\_2_Bank_Of_Kurtovo_Konare\bin\Debug\_2_Bank_Of_Kurtovo_Konare.exe
+D:\SoftUni\HomeWork\OOP\HomeWork_6\_2_Bank_Of_Kurtovo_Konare\bin\Debug\_2_Bank_Of_Kurtovo_Konare.pdb
+D:\SoftUni\HomeWork\OOP\HomeWork_6\_2_Bank_Of_Kurtovo_Konare\obj\Debug\_2_Bank_Of_Kurtovo_Konare.csprojResolveAssemblyReference.cache
+D:\SoftUni\HomeWork\OOP\HomeWork_6\_2_Bank_Of_Kurtovo_Konare\obj\Debug\_2_Bank_Of_Kurtovo_Konare.exe
+D:\SoftUni\HomeWork\OOP\HomeWork_6\_2_Bank_Of_Kurtovo_Konare\obj\Debug\_2_Bank_Of_Kurtovo_Konare.pdb

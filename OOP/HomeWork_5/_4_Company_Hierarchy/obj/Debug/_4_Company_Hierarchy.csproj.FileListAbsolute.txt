@@ -1,0 +1,6 @@
+D:\SoftUni\HomeWork\OOP\HomeWork_5\_4_Company_Hierarchy\bin\Debug\_4_Company_Hierarchy.exe.config
+D:\SoftUni\HomeWork\OOP\HomeWork_5\_4_Company_Hierarchy\bin\Debug\_4_Company_Hierarchy.exe
+D:\SoftUni\HomeWork\OOP\HomeWork_5\_4_Company_Hierarchy\bin\Debug\_4_Company_Hierarchy.pdb
+D:\SoftUni\HomeWork\OOP\HomeWork_5\_4_Company_Hierarchy\obj\Debug\_4_Company_Hierarchy.csprojResolveAssemblyReference.cache
+D:\SoftUni\HomeWork\OOP\HomeWork_5\_4_Company_Hierarchy\obj\Debug\_4_Company_Hierarchy.exe
+D:\SoftUni\HomeWork\OOP\HomeWork_5\_4_Company_Hierarchy\obj\Debug\_4_Company_Hierarchy.pdb

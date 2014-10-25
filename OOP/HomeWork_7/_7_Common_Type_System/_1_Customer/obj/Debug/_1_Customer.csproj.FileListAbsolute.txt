@@ -1,0 +1,6 @@
+D:\SoftUni\HomeWork\OOP\HomeWork_7\_7_Common_Type_System\_1_Customer\bin\Debug\_1_Customer.exe.config
+D:\SoftUni\HomeWork\OOP\HomeWork_7\_7_Common_Type_System\_1_Customer\obj\Debug\_1_Customer.csprojResolveAssemblyReference.cache
+D:\SoftUni\HomeWork\OOP\HomeWork_7\_7_Common_Type_System\_1_Customer\bin\Debug\_1_Customer.exe
+D:\SoftUni\HomeWork\OOP\HomeWork_7\_7_Common_Type_System\_1_Customer\bin\Debug\_1_Customer.pdb
+D:\SoftUni\HomeWork\OOP\HomeWork_7\_7_Common_Type_System\_1_Customer\obj\Debug\_1_Customer.exe
+D:\SoftUni\HomeWork\OOP\HomeWork_7\_7_Common_Type_System\_1_Customer\obj\Debug\_1_Customer.pdb

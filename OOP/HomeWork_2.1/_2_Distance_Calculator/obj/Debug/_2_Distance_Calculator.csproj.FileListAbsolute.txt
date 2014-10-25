@@ -1,0 +1,5 @@
+D:\SoftUni\HomeWork\OOP\HomeWork_2.1\_2_Distance_Calculator\bin\Debug\_2_Distance_Calculator.exe.config
+D:\SoftUni\HomeWork\OOP\HomeWork_2.1\_2_Distance_Calculator\bin\Debug\_2_Distance_Calculator.exe
+D:\SoftUni\HomeWork\OOP\HomeWork_2.1\_2_Distance_Calculator\bin\Debug\_2_Distance_Calculator.pdb
+D:\SoftUni\HomeWork\OOP\HomeWork_2.1\_2_Distance_Calculator\obj\Debug\_2_Distance_Calculator.exe
+D:\SoftUni\HomeWork\OOP\HomeWork_2.1\_2_Distance_Calculator\obj\Debug\_2_Distance_Calculator.pdb

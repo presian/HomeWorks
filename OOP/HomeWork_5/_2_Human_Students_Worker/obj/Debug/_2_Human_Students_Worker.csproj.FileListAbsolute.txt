@@ -1,0 +1,6 @@
+D:\SoftUni\HomeWork\OOP\HomeWork_5\_2_Human_Students_Worker\bin\Debug\_2_Human_Students_Worker.exe.config
+D:\SoftUni\HomeWork\OOP\HomeWork_5\_2_Human_Students_Worker\bin\Debug\_2_Human_Students_Worker.exe
+D:\SoftUni\HomeWork\OOP\HomeWork_5\_2_Human_Students_Worker\bin\Debug\_2_Human_Students_Worker.pdb
+D:\SoftUni\HomeWork\OOP\HomeWork_5\_2_Human_Students_Worker\obj\Debug\_2_Human_Students_Worker.csprojResolveAssemblyReference.cache
+D:\SoftUni\HomeWork\OOP\HomeWork_5\_2_Human_Students_Worker\obj\Debug\_2_Human_Students_Worker.exe
+D:\SoftUni\HomeWork\OOP\HomeWork_5\_2_Human_Students_Worker\obj\Debug\_2_Human_Students_Worker.pdb

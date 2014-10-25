@@ -1,0 +1,6 @@
+D:\SoftUni\HomeWork\OOP\HomeWork_3\_2_Fraction_Calculator\bin\Debug\_2_Fraction_Calculator.exe.config
+D:\SoftUni\HomeWork\OOP\HomeWork_3\_2_Fraction_Calculator\bin\Debug\_2_Fraction_Calculator.exe
+D:\SoftUni\HomeWork\OOP\HomeWork_3\_2_Fraction_Calculator\bin\Debug\_2_Fraction_Calculator.pdb
+D:\SoftUni\HomeWork\OOP\HomeWork_3\_2_Fraction_Calculator\obj\Debug\_2_Fraction_Calculator.csprojResolveAssemblyReference.cache
+D:\SoftUni\HomeWork\OOP\HomeWork_3\_2_Fraction_Calculator\obj\Debug\_2_Fraction_Calculator.exe
+D:\SoftUni\HomeWork\OOP\HomeWork_3\_2_Fraction_Calculator\obj\Debug\_2_Fraction_Calculator.pdb

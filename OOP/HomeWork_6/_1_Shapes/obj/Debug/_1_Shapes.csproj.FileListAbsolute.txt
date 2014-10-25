@@ -1,0 +1,6 @@
+D:\SoftUni\HomeWork\OOP\HomeWork_6\_1_Shapes\bin\Debug\_1_Shapes.exe.config
+D:\SoftUni\HomeWork\OOP\HomeWork_6\_1_Shapes\obj\Debug\_1_Shapes.csprojResolveAssemblyReference.cache
+D:\SoftUni\HomeWork\OOP\HomeWork_6\_1_Shapes\bin\Debug\_1_Shapes.exe
+D:\SoftUni\HomeWork\OOP\HomeWork_6\_1_Shapes\bin\Debug\_1_Shapes.pdb
+D:\SoftUni\HomeWork\OOP\HomeWork_6\_1_Shapes\obj\Debug\_1_Shapes.exe
+D:\SoftUni\HomeWork\OOP\HomeWork_6\_1_Shapes\obj\Debug\_1_Shapes.pdb

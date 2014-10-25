@@ -1,0 +1,12 @@
+D:\SoftUni\HomeWork\OOP\HomeWork_2\_1_SquareRoot\bin\Debug\_1_SquareRoot.exe.config
+D:\SoftUni\HomeWork\OOP\HomeWork_2\_1_SquareRoot\bin\Debug\_1_SquareRoot.exe
+D:\SoftUni\HomeWork\OOP\HomeWork_2\_1_SquareRoot\bin\Debug\_1_SquareRoot.pdb
+D:\SoftUni\HomeWork\OOP\HomeWork_2\_1_SquareRoot\obj\Debug\_1_SquareRoot.csprojResolveAssemblyReference.cache
+D:\SoftUni\HomeWork\OOP\HomeWork_2\_1_SquareRoot\obj\Debug\_1_SquareRoot.exe
+D:\SoftUni\HomeWork\OOP\HomeWork_2\_1_SquareRoot\obj\Debug\_1_SquareRoot.pdb
+D:\SoftUni\HomeWork\OOP\HomeWork_2.2\_1_SquareRoot\bin\Debug\_1_SquareRoot.exe.config
+D:\SoftUni\HomeWork\OOP\HomeWork_2.2\_1_SquareRoot\obj\Debug\_1_SquareRoot.exe
+D:\SoftUni\HomeWork\OOP\HomeWork_2.2\_1_SquareRoot\obj\Debug\_1_SquareRoot.pdb
+D:\SoftUni\HomeWork\OOP\HomeWork_2.2\_1_SquareRoot\bin\Debug\_1_SquareRoot.exe
+D:\SoftUni\HomeWork\OOP\HomeWork_2.2\_1_SquareRoot\bin\Debug\_1_SquareRoot.pdb
+D:\SoftUni\HomeWork\OOP\HomeWork_2.2\_1_SquareRoot\obj\Debug\_1_SquareRoot.csprojResolveAssemblyReference.cache

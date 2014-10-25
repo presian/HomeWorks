@@ -1,0 +1,6 @@
+D:\SoftUni\HomeWork\OOP\HomeWork_1\_3_PC_Catalog\bin\Debug\_3_PC_Catalog.exe.config
+D:\SoftUni\HomeWork\OOP\HomeWork_1\_3_PC_Catalog\obj\Debug\_3_PC_Catalog.csprojResolveAssemblyReference.cache
+D:\SoftUni\HomeWork\OOP\HomeWork_1\_3_PC_Catalog\bin\Debug\_3_PC_Catalog.exe
+D:\SoftUni\HomeWork\OOP\HomeWork_1\_3_PC_Catalog\bin\Debug\_3_PC_Catalog.pdb
+D:\SoftUni\HomeWork\OOP\HomeWork_1\_3_PC_Catalog\obj\Debug\_3_PC_Catalog.exe
+D:\SoftUni\HomeWork\OOP\HomeWork_1\_3_PC_Catalog\obj\Debug\_3_PC_Catalog.pdb

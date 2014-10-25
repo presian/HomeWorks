@@ -1,0 +1,6 @@
+D:\SoftUni\HomeWork\OOP\HomeWork_1\_1_Persons\bin\Debug\_1_Persons.exe.config
+D:\SoftUni\HomeWork\OOP\HomeWork_1\_1_Persons\bin\Debug\_1_Persons.exe
+D:\SoftUni\HomeWork\OOP\HomeWork_1\_1_Persons\bin\Debug\_1_Persons.pdb
+D:\SoftUni\HomeWork\OOP\HomeWork_1\_1_Persons\obj\Debug\_1_Persons.csprojResolveAssemblyReference.cache
+D:\SoftUni\HomeWork\OOP\HomeWork_1\_1_Persons\obj\Debug\_1_Persons.exe
+D:\SoftUni\HomeWork\OOP\HomeWork_1\_1_Persons\obj\Debug\_1_Persons.pdb

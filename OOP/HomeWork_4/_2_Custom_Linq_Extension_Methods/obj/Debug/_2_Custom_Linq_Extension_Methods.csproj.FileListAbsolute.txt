@@ -1,0 +1,6 @@
+D:\SoftUni\HomeWork\OOP\HomeWork_4\_2_Custom_Linq_Extension_Methods\bin\Debug\_2_Custom_Linq_Extension_Methods.exe.config
+D:\SoftUni\HomeWork\OOP\HomeWork_4\_2_Custom_Linq_Extension_Methods\bin\Debug\_2_Custom_Linq_Extension_Methods.exe
+D:\SoftUni\HomeWork\OOP\HomeWork_4\_2_Custom_Linq_Extension_Methods\bin\Debug\_2_Custom_Linq_Extension_Methods.pdb
+D:\SoftUni\HomeWork\OOP\HomeWork_4\_2_Custom_Linq_Extension_Methods\obj\Debug\_2_Custom_Linq_Extension_Methods.exe
+D:\SoftUni\HomeWork\OOP\HomeWork_4\_2_Custom_Linq_Extension_Methods\obj\Debug\_2_Custom_Linq_Extension_Methods.pdb
+D:\SoftUni\HomeWork\OOP\HomeWork_4\_2_Custom_Linq_Extension_Methods\obj\Debug\_2_Custom_Linq_Extension_Methods.csprojResolveAssemblyReference.cache

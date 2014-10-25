@@ -1,0 +1,6 @@
+D:\SoftUni\HomeWork\OOP\HomeWork_4\_1_StringBuilder_Extensions\bin\Debug\_1_StringBuilder_Extensions.exe.config
+D:\SoftUni\HomeWork\OOP\HomeWork_4\_1_StringBuilder_Extensions\obj\Debug\_1_StringBuilder_Extensions.csprojResolveAssemblyReference.cache
+D:\SoftUni\HomeWork\OOP\HomeWork_4\_1_StringBuilder_Extensions\bin\Debug\_1_StringBuilder_Extensions.exe
+D:\SoftUni\HomeWork\OOP\HomeWork_4\_1_StringBuilder_Extensions\bin\Debug\_1_StringBuilder_Extensions.pdb
+D:\SoftUni\HomeWork\OOP\HomeWork_4\_1_StringBuilder_Extensions\obj\Debug\_1_StringBuilder_Extensions.exe
+D:\SoftUni\HomeWork\OOP\HomeWork_4\_1_StringBuilder_Extensions\obj\Debug\_1_StringBuilder_Extensions.pdb

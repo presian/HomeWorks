@@ -1,0 +1,6 @@
+D:\SoftUni\HomeWork\OOP\HomeWork_5\_1_School.v1.3\bin\Debug\_1_School.v1.3.exe.config
+D:\SoftUni\HomeWork\OOP\HomeWork_5\_1_School.v1.3\bin\Debug\_1_School.v1.3.exe
+D:\SoftUni\HomeWork\OOP\HomeWork_5\_1_School.v1.3\bin\Debug\_1_School.v1.3.pdb
+D:\SoftUni\HomeWork\OOP\HomeWork_5\_1_School.v1.3\obj\Debug\_1_School.v1.3.csprojResolveAssemblyReference.cache
+D:\SoftUni\HomeWork\OOP\HomeWork_5\_1_School.v1.3\obj\Debug\_1_School.v1.3.exe
+D:\SoftUni\HomeWork\OOP\HomeWork_5\_1_School.v1.3\obj\Debug\_1_School.v1.3.pdb

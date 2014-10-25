@@ -1,0 +1,6 @@
+D:\SoftUni\HomeWork\OOP\HomeWork_5\_3_Animals\bin\Debug\_3_Animals.exe.config
+D:\SoftUni\HomeWork\OOP\HomeWork_5\_3_Animals\obj\Debug\_3_Animals.csprojResolveAssemblyReference.cache
+D:\SoftUni\HomeWork\OOP\HomeWork_5\_3_Animals\bin\Debug\_3_Animals.exe
+D:\SoftUni\HomeWork\OOP\HomeWork_5\_3_Animals\bin\Debug\_3_Animals.pdb
+D:\SoftUni\HomeWork\OOP\HomeWork_5\_3_Animals\obj\Debug\_3_Animals.exe
+D:\SoftUni\HomeWork\OOP\HomeWork_5\_3_Animals\obj\Debug\_3_Animals.pdb

@@ -1,0 +1,6 @@
+D:\SoftUni\HomeWork\OOP\HomeWork_3\_1_Galactic_GPS\bin\Debug\_1_Galactic_GPS.exe.config
+D:\SoftUni\HomeWork\OOP\HomeWork_3\_1_Galactic_GPS\bin\Debug\_1_Galactic_GPS.exe
+D:\SoftUni\HomeWork\OOP\HomeWork_3\_1_Galactic_GPS\bin\Debug\_1_Galactic_GPS.pdb
+D:\SoftUni\HomeWork\OOP\HomeWork_3\_1_Galactic_GPS\obj\Debug\_1_Galactic_GPS.csprojResolveAssemblyReference.cache
+D:\SoftUni\HomeWork\OOP\HomeWork_3\_1_Galactic_GPS\obj\Debug\_1_Galactic_GPS.exe
+D:\SoftUni\HomeWork\OOP\HomeWork_3\_1_Galactic_GPS\obj\Debug\_1_Galactic_GPS.pdb

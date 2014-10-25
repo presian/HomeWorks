@@ -1,0 +1,5 @@
+D:\SoftUni\HomeWork\OOP\HomeWork_2.1\_6_Namespaces\bin\Debug\_6_Namespaces.exe.config
+D:\SoftUni\HomeWork\OOP\HomeWork_2.1\_6_Namespaces\bin\Debug\_6_Namespaces.exe
+D:\SoftUni\HomeWork\OOP\HomeWork_2.1\_6_Namespaces\bin\Debug\_6_Namespaces.pdb
+D:\SoftUni\HomeWork\OOP\HomeWork_2.1\_6_Namespaces\obj\Debug\_6_Namespaces.exe
+D:\SoftUni\HomeWork\OOP\HomeWork_2.1\_6_Namespaces\obj\Debug\_6_Namespaces.pdb
