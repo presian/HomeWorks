@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title></title>
+	<link rel="stylesheet" href="style.css">
+	<script type="text/javascript" src="Shapes.js"></script>
+</head>
+<body>
+	<div id="canvas">
+		<canvas id="result">
+			
+		</canvas>
+	</div>
+		<script>
+		var rectangle = new Rectangle(100,100,"#000000", 10, 10);
+		rectangle.draw();
+		var circle = new Circle(40,15, "#000000" , 10)
+		circle.draw();
+		var segment = new Segment(65,5, "#000000", 100, 60);
+		segment.draw();
+		var triangle = new Triangle(50,50, "#0000FF", 20,70, 80,80 );
+		triangle.draw();
+		var point = new Point(10,10, "#000000");
+		point.draw();
+		</script>
+</body>
+</html>

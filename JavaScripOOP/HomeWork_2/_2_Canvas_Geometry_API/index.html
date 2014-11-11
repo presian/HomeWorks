@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>CanvasGeometry</title>
+	<link rel="stylesheet" href="style.css">
+	<script type="text/javascript" src="../_1_Shapes/Shapes.js"></script>
+ 	<!-- // <script type="text/javascript" src="API.js"></script> -->
+</head>
+<body>
+	<div id="wrapper">
+		<div id="input">
+			<div id="firstRow">
+				<label for="coordsX">X:</label><input type="text" id="coordsX">
+				<label for="coordsY">Y:</label><input type="text" id="coordsY">
+				<label for="colorPicker">Color:</label><input type="color" id="colorPicker">
+			</div>
+			<div id="secondRow">
+				<label for="shapePicker">Shape</label>
+				<select id="shapePicker">
+					<option value="Point" selected>Point</option>
+					<option value="Circle">Circle</option>
+					<option value="Rectangle">Rectangle</option>
+					<option value="Segment">Segment</option>
+					<option value="Triangle">Triangle</option>
+				</select>
+			</div>
+			<div id="thirdRow">
+				<div id="coords2">
+					<label for="coordsX2">X2:</label><input type="text" id="coordsX2">
+					<label for="coordsY2">Y2:</label><input type="text" id="coordsY2">
+				</div>
+				<div id="coords3">
+					<label for="coordsX3">X3:</label><input type="text" id="coordsX3">
+					<label for="coordsY3">Y3:</label><input type="text" id="coordsY3">
+				</div>
+				<div id="circle">
+					<label for="radius">Radius:</label><input type="text" id="radius">
+				</div>
+				<div id="rectangle">
+					<label for="rectWidth">Width:</label><input type="text" id="rectWidth">
+					<label for="rectHeight">Height:</label><input type="text" id="rectHeight">
+				</div>
+			</div>
+			<div id="fourthRow">
+				<div id="shapeListDiv">
+					<select id="shapeListSelect" size="15">
+						
+					</select>
+					<button id="addButton">Add</button>
+				</div>
+				<div id="buttons">
+					<button id="up">&uArr;</button>
+					<button id="down">&dArr;</button>
+					<button id="remove">-</button>
+				</div>
+			</div>
+		</div>
+		<div id="canvas">
+			<canvas id="result">
+				
+			</canvas>
+		</div>
+		<script type="text/javascript" src="API.js"></script>
+	</div>
+</body>
+</html>
