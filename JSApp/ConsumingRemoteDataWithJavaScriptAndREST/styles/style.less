@@ -1,0 +1,79 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-size: 15px;
+}
+h2 {
+    display: block;
+    width: 100%;
+    font-size: 1.5em;
+    text-align: center;
+}
+.wrapper {
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 100%;
+    height: auto;
+    padding-top: 50px;
+    .library {
+        display: block;
+    }
+    .editRow {
+        display: block;
+        width: 800px;
+        margin: 3px auto;
+    }
+}
+.result {
+    width: 800px;
+    height: auto;
+    display: table;
+    margin: 0 auto;
+}
+.bookListItem {
+    width: 100%;
+    padding: 3px;
+    height: auto;
+    display: block;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.bookListItem:nth-child(even) {
+    background-color: lightblue;
+}
+.cell {
+    width: 200px;
+    display: inline-block;
+    justify-content: space-evenly;
+    text-align: left;
+    button {
+        width: 100%;
+    }
+}
+.editActionTarget {
+    width: 75%;
+    display: inline-block;
+}
+.addRow {
+    width: 800px;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+    padding: 0px;
+}
+input[type=text] {
+    margin: 3px 3px 3px 0px;
+    width: 194px;
+}
+input[type=button] {
+    margin: 3px 3px 3px 0px;
+    width: 100px;
+}
+#listHead {
+    background-color: lightgreen;
+    .cell {
+        font-size: 1.5em;
+        text-align: center;
+    }
+}
