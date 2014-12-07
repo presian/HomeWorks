@@ -1,0 +1,27 @@
+<div id="library">
+    <h1>This is your place in book world!</h1>
+    <div id="library-list">
+        <div id="list-header">
+            <div class="list-cell">Title</div>
+            <div class="list-cell">Author</div>
+            <div class="list-cell">ISBN</div>
+            <div class="list-cell">Delete</div>
+        </div> {{#results}}
+        <div class="list-row" data-id="{{objectId}}">
+            <div class="list-row-section">
+                <div class="list-cell">{{title}}</div>
+                <div class="list-cell">{{author}}</div>
+                <div class="list-cell" style="text-align: center">{{isbn}}</div>
+            </div>
+            <div class="list-cell" style="text-align: center">
+                <input type="button" class="delete-button" value="Delete">
+            </div>
+        </div> {{/results}} </div>
+    <div class="book-manipulations-row">
+        <input type="text" id="addTitle" placeholder="Title...">
+        <input type="text" id="addAuthor" placeholder="Author...">
+        <input type="text" id="addIsbn" placeholder="ISBN...">
+        <input type="button" id="addNewBook" value="Add book"> </div>
+    <div class="book-manipulation-row" id="edit-row"></div>
+</div>
+

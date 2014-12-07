@@ -1,0 +1,20 @@
+{
+  "name": "Library_Promises_Tamplating_Routing",
+  "version": "0.0.1",
+  "description": "Homework on JSApp",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "homework"
+  ],
+  "author": "Presian Danailov",
+  "license": "None",
+  "dependencies": {
+    "jquery": "^2.1.1",
+    "mustache": "^0.8.2",
+    "q": "^1.1.2",
+    "shimney-sammy": "^0.7.4"
+  }
+}
