@@ -1,6 +1,7 @@
 * {
     margin: 0px;
     padding: 0px;
+    font-family: Calibri;
 }
 body {
     padding: 20px;
@@ -26,10 +27,13 @@ img {
     width: 45%;
     display: inline-block;
 }
-h1 {
+h1, h3 {
     text-align: center;
     margin-bottom: 10px;
 }
 input[type=url] {
     width: 90%;
+}
+.prob3 {
+    background-color: rgb(202, 202, 202);
 }

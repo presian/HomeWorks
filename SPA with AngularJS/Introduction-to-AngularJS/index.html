@@ -28,11 +28,25 @@
         <br/>
         <img ng-src="{{url}}" alt="pic">
     </div>
+    <div ng-controller="Problem_3" class="prob3">
+        <h1>Problem 3</h1>
+        <div ng-style="{{boldTextStyle}}">
+            <h3>TIGER</h3>
+            <ul ng-style="{{ulStyle}}">
+                <li ng-repeat="key in notSorted(dataObject)" ng-init="value = dataObject[key]">
+                    {{key}} : <span ng-style="{{textStyle}}">{{value}}</span>
+                </li>
+            </ul>
+        </div>
+        <img ng-src="{{picUrl}}">
+
+    </div>
 
     <script src="./lib/angular.js"></script>
     <script src="./js/app.js"></script>
     <script src="./js/controllers/Problem_1.js"></script>
     <script src="./js/controllers/Problem_2.js"></script>
+    <script src="./js/controllers/Problem_3.js"></script>
 </body>
 
 </html>
