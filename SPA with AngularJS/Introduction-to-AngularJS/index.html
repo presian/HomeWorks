@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <title>Introduction to AngularJS</title>
+    <link rel="stylesheet" href="./css/index.css">
+
+</head>
+
+<body ng-app="problem_1">
+    <div ng-controller="Problem_1">
+        <h1>Problem 1</h1>
+        <ul>
+            <li>Name: {{obj.name}}</li>
+            <li>Grade: {{obj.grade}}</li>
+            <li>School: {{obj.school}}</li>
+            <li>Teacher: {{obj.teacher}}</li>
+
+        </ul>
+        <img ng-src="{{obj.photo}}" alt="SoftUniLogo">
+    </div>
+    <div ng-controller="Problem_2">
+        <h1>Problem 2</h1>
+        <input type="url" ng-value="url" ng-model="url" />
+        <br/>
+        <img ng-src="{{url}}" alt="pic">
+    </div>
+
+    <script src="./lib/angular.js"></script>
+    <script src="./js/app.js"></script>
+    <script src="./js/controllers/Problem_1.js"></script>
+    <script src="./js/controllers/Problem_2.js"></script>
+</body>
+
+</html>
