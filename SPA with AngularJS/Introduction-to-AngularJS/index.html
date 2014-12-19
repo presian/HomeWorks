@@ -10,7 +10,7 @@
 
 </head>
 
-<body ng-app="problem_1">
+<body ng-app="app">
     <div ng-controller="Problem_1">
         <h1>Problem 1</h1>
         <ul>
@@ -39,7 +39,31 @@
             </ul>
         </div>
         <img ng-src="{{picUrl}}">
-
+    </div>
+    <div ng-controller="Problem_3.v2" ng-style="{{style.all}}">
+        <h1 ng-style="{{style.h1}}">Problem 3.v2</h1>
+        <div ng-style="{{style.outDiv}}">
+            <div ng-style="{{style.inDiv}}">
+                <h3 >TIGER</h3>
+                <ul ng-style="{{style.ul}}">
+                    <li>
+                        Name: {{dataObject.Name}}
+                    </li>
+                    <li>
+                        Born: {{dataObject.Born}}
+                    </li>
+                    <li>
+                        Birth date: {{dataObject.BirthDate}}
+                    </li>
+                    <li>
+                        Live: {{dataObject.Live}}
+                    </li>
+                </ul>
+            </div>
+            <div ng-style="{{style.inDiv}}">
+                <img ng-src="{{dataObject.url}}" alt="tiger" ng-style="{{style.img}}">
+            </div>
+        </div>
     </div>
 
     <script src="./lib/angular.js"></script>
@@ -47,6 +71,7 @@
     <script src="./js/controllers/Problem_1.js"></script>
     <script src="./js/controllers/Problem_2.js"></script>
     <script src="./js/controllers/Problem_3.js"></script>
+    <script src="./js/controllers/Problem_3.v2.js"></script>
 </body>
 
 </html>
