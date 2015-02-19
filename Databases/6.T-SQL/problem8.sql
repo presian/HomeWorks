@@ -18,8 +18,7 @@ INNER JOIN Towns t
 OPEN empCursor
 DECLARE @firstName NVARCHAR(MAX), 
 @lastName NVARCHAR(MAX), 
-@town NVARCHAR(MAX) = '',
-@currentTown NVARCHAR(MAX) = ''
+@town NVARCHAR(MAX) = ''
 FETCH NEXT FROM empCursor INTO 
 	@firstName, 
 	@lastName,  
