@@ -1,0 +1,67 @@
+D:\SoftUni\HomeWork\Databases\9.2.MongoDb\problem1>mongod --dbpath C:\data\db
+--in another cmd
+D:\SoftUni\HomeWork\Databases\9.2.MongoDb\problem1>mongo
+MongoDB shell version: 2.6.7
+connecting to: test
+> use ChatDB
+switched to db ChatDB
+> db.createCollection("Messages")
+{ "ok" : 1 }
+> db.collection.insert({text:"My first message!", date: "01.03.2015", isRead: tr
+ue, user: {username: "pesho", fullName: "Peter Petrov", website: "www.pesho.com"
+ } })
+WriteResult({ "nInserted" : 1 })
+> db.collection.insert({text:"My first message!", date: "01.03.2015", isRead: tr
+ue, user: {username: "tosho", fullName: "Todor Todorov", website: "www.tosho.com
+" } })
+WriteResult({ "nInserted" : 1 })
+> db.ChatDB.find()
+> db.collection.find()
+{ "_id" : ObjectId("54ea436a13dbfc478d971b4d"), "text" : "My first message!", "d
+ate" : "01.03.2015", "isRead" : true, "user" : { "username" : "pesho", "fullName
+" : "Peter Petrov", "website" : "www.pesho.com" } }
+{ "_id" : ObjectId("54ea440e13dbfc478d971b4e"), "text" : "My first message!", "d
+ate" : "01.03.2015", "isRead" : true, "user" : { "username" : "tosho", "fullName
+" : "Todor Todorov", "website" : "www.tosho.com" } }
+> use admin
+switched to db admin
+> db.shutdownServer()
+2015-02-23T10:37:46.474+0200 DBClientCursor::init call() failed
+server should be down...
+2015-02-23T10:37:46.479+0200 trying reconnect to 127.0.0.1:27017 (127.0.0.1) fai
+led
+2015-02-23T10:37:47.481+0200 warning: Failed to connect to 127.0.0.1:27017, reas
+on: errno:10061 No connection could be made because the target machine actively
+refused it.
+2015-02-23T10:37:47.482+0200 reconnect 127.0.0.1:27017 (127.0.0.1) failed failed
+ couldn't connect to server 127.0.0.1:27017 (127.0.0.1), connection attempt fail
+ed
+> quit()
+
+D:\SoftUni\HomeWork\Databases\9.2.MongoDb\problem1>mongodump --dbpath C:\data\db
+ --db ChatDB
+2015-02-23T10:39:41.432+0200 DATABASE: ChatDB    to     dump\ChatDB
+2015-02-23T10:39:41.436+0200    ChatDB.system.indexes to dump\ChatDB\system.inde
+xes.bson
+2015-02-23T10:39:41.437+0200             2 documents
+2015-02-23T10:39:41.437+0200    ChatDB.Messages to dump\ChatDB\Messages.bson
+2015-02-23T10:39:41.438+0200             0 documents
+2015-02-23T10:39:41.438+0200    Metadata for ChatDB.Messages to dump\ChatDB\Mess
+ages.metadata.json
+2015-02-23T10:39:41.439+0200    ChatDB.collection to dump\ChatDB\collection.bson
+
+2015-02-23T10:39:41.439+0200             2 documents
+2015-02-23T10:39:41.440+0200    Metadata for ChatDB.collection to dump\ChatDB\co
+llection.metadata.json
+2015-02-23T10:39:41.444+0200 [tools] dbexit:
+2015-02-23T10:39:41.444+0200 [tools] shutdown: going to close listening sockets.
+..
+2015-02-23T10:39:41.444+0200 [tools] shutdown: going to flush diaglog...
+2015-02-23T10:39:41.444+0200 [tools] shutdown: going to close sockets...
+2015-02-23T10:39:41.444+0200 [tools] shutdown: waiting for fs preallocator...
+2015-02-23T10:39:41.444+0200 [tools] shutdown: closing all files...
+2015-02-23T10:39:41.445+0200 [tools] closeAllFiles() finished
+2015-02-23T10:39:41.445+0200 [tools] shutdown: removing fs lock...
+2015-02-23T10:39:41.445+0200 [tools] dbexit: really exiting now
+
+D:\SoftUni\HomeWork\Databases\9.2.MongoDb\problem1>
