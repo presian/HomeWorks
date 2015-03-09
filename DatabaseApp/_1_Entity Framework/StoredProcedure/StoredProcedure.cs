@@ -1,6 +1,5 @@
-﻿// Problem 9.	Call a Stored Procedure
-// Your task is to create a stored procedure in the SoftUni database for finding all projects for given employee (first name and last name). Using EF implement a C# method that calls the stored procedure and returns the retuned record set.
-
+﻿//Problem 10.	Create a stored procedures in the SoftUni database
+//Your task is to create a stored procedures in the SoftUni database for finding the total projects for given employee first name and last name. Implement a C# method that calls the stored procedure and returns the retuned record set.
 
 namespace StoredProcedure
 {

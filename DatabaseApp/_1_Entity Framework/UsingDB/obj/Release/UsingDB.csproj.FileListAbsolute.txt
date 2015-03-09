@@ -1,0 +1,10 @@
+D:\SoftUni\HomeWork\DatabasesApp\_1_Entity Framework\UsingDB\bin\Release\UsingDB.dll.config
+D:\SoftUni\HomeWork\DatabasesApp\_1_Entity Framework\UsingDB\bin\Release\UsingDB.dll
+D:\SoftUni\HomeWork\DatabasesApp\_1_Entity Framework\UsingDB\bin\Release\UsingDB.pdb
+D:\SoftUni\HomeWork\DatabasesApp\_1_Entity Framework\UsingDB\bin\Release\EntityFramework.dll
+D:\SoftUni\HomeWork\DatabasesApp\_1_Entity Framework\UsingDB\bin\Release\EntityFramework.SqlServer.dll
+D:\SoftUni\HomeWork\DatabasesApp\_1_Entity Framework\UsingDB\bin\Release\EntityFramework.xml
+D:\SoftUni\HomeWork\DatabasesApp\_1_Entity Framework\UsingDB\bin\Release\EntityFramework.SqlServer.xml
+D:\SoftUni\HomeWork\DatabasesApp\_1_Entity Framework\UsingDB\obj\Release\UsingDB.csprojResolveAssemblyReference.cache
+D:\SoftUni\HomeWork\DatabasesApp\_1_Entity Framework\UsingDB\obj\Release\UsingDB.dll
+D:\SoftUni\HomeWork\DatabasesApp\_1_Entity Framework\UsingDB\obj\Release\UsingDB.pdb

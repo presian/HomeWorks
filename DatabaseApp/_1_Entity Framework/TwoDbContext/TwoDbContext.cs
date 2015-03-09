@@ -1,4 +1,4 @@
-﻿//Problem 6.	Concurrent Database Changes with EF
+﻿//Problem 7.	Try to open two different data contexts
 //Your task is to try to open two different data contexts and to perform concurrent changes on the same records. What will happen at SaveChanges()? How to deal with it?
 
 namespace TwoDbContext

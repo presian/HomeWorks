@@ -1,10 +1,5 @@
-﻿// New condition -> Problem 8.	Insert a New Project
-// Your task is to create a method that inserts a new project in the SoftUni database. The project should contain several employees.
-
-
-
-// Old condition -> Problem 9.	Create a method that places a new project in the SoftUni database.
-// Your task is to create a method that places a new project in the SoftUni database. The project should contain several employees. Use transaction to ensure the data consistency.
+﻿//Problem 9.	Create a method that places a new project in the SoftUni database.
+//Your task is to create a method that places a new project in the SoftUni database. The project should contain several employees. Use transaction to ensure the data consistency.
 
 namespace AddingNewProjectWithTransaction
 {
@@ -14,9 +9,7 @@ namespace AddingNewProjectWithTransaction
     using UsingDB;
     class NewProjectAddeer
     {
-        // In all versions of Entity Framework, whenever you execute SaveChanges() to insert, update or delete on the database the framework will wrap that operation in a transaction. This transaction lasts only long enough to execute the operation and then completes. When you execute another such operation a new transaction is started.
-
-        // This solution is for old condition for this problem but works fine with the new one!
+        //In all versions of Entity Framework, whenever you execute SaveChanges() to insert, update or delete on the database the framework will wrap that operation in a transaction. This transaction lasts only long enough to execute the operation and then completes. When you execute another such operation a new transaction is started.
 
         static void Main()
         {

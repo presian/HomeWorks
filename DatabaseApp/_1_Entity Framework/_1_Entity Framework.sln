@@ -13,15 +13,15 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "4.EmployeeWithProjectsIn200
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "5.EmployeesByDepartmentAndManager", "EmployeesByDepartmentAndManager\5.EmployeesByDepartmentAndManager.csproj", "{740DBE77-FCFB-4772-8296-CFBF7E311020}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "10.SoftUniTwin.ExrtraProblem", "SoftUniTwin\10.SoftUniTwin.ExrtraProblem.csproj", "{234D119F-2252-4273-9715-4688D0FBE781}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "6.SoftUniTwin", "SoftUniTwin\6.SoftUniTwin.csproj", "{234D119F-2252-4273-9715-4688D0FBE781}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "6.TwoDbContext", "TwoDbContext\6.TwoDbContext.csproj", "{3EABDC2E-DEE1-4771-8686-5835DD73E36F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "7.TwoDbContext", "TwoDbContext\7.TwoDbContext.csproj", "{3EABDC2E-DEE1-4771-8686-5835DD73E36F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "7.ExtendsEmployees", "ExtendsEmployees\7.ExtendsEmployees.csproj", "{AF80B252-6AC1-49D9-AB68-961BA4FD0654}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "8.ExtendsEmployees", "ExtendsEmployees\8.ExtendsEmployees.csproj", "{AF80B252-6AC1-49D9-AB68-961BA4FD0654}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "8.AddingNewProjectWithTransaction", "AddingNewProjectWithTransaction\8.AddingNewProjectWithTransaction.csproj", "{E4AA8C45-AA2D-4A35-AD6A-F01A51D1F586}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "9.AddingNewProjectWithTransaction", "AddingNewProjectWithTransaction\9.AddingNewProjectWithTransaction.csproj", "{E4AA8C45-AA2D-4A35-AD6A-F01A51D1F586}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "9.StoredProcedure", "StoredProcedure\9.StoredProcedure.csproj", "{AF219DE6-00D0-4E79-8345-E2275B307A60}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "10.StoredProcedure", "StoredProcedure\10.StoredProcedure.csproj", "{AF219DE6-00D0-4E79-8345-E2275B307A60}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UsingDB", "UsingDB\UsingDB.csproj", "{8C40D8C9-DCAA-4232-B959-12CA030DAE40}"
 EndProject

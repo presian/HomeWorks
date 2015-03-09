@@ -1,5 +1,4 @@
-﻿// Problem 1.	DbContext for the SoftUni Database
-// Your task is to create a DbContext for the SoftUni database using the Visual Studio Entity Framework Designer
+﻿//Your task is to create a DbContext for the SoftUni database using the Visual Studio Entity Framework Designer
 
 namespace CreateDBContext
 {
