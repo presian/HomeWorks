@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1.NewsSystem.Models", "NewsSystem.Models\1.NewsSystem.Models.csproj", "{E0CFE2D7-328E-4F31-84FE-E865833FA03B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1.NewsSystem.Data", "NewsSystem.Data\1.NewsSystem.Data.csproj", "{9BF86BFD-A32B-4FC2-965A-1403CA04C10E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2.NewsSystem.Client", "NewsSystem.Client\2.NewsSystem.Client.csproj", "{2217B9ED-D950-4C31-809B-54FB432FF9CE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "5_6.TransactionalATMWithdrawal", "TransactionalATMWithdrawal\5_6.TransactionalATMWithdrawal.csproj", "{5B142EE7-658A-4935-878F-30702615C50A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E0CFE2D7-328E-4F31-84FE-E865833FA03B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E0CFE2D7-328E-4F31-84FE-E865833FA03B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E0CFE2D7-328E-4F31-84FE-E865833FA03B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E0CFE2D7-328E-4F31-84FE-E865833FA03B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9BF86BFD-A32B-4FC2-965A-1403CA04C10E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9BF86BFD-A32B-4FC2-965A-1403CA04C10E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9BF86BFD-A32B-4FC2-965A-1403CA04C10E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9BF86BFD-A32B-4FC2-965A-1403CA04C10E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2217B9ED-D950-4C31-809B-54FB432FF9CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2217B9ED-D950-4C31-809B-54FB432FF9CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2217B9ED-D950-4C31-809B-54FB432FF9CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2217B9ED-D950-4C31-809B-54FB432FF9CE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5B142EE7-658A-4935-878F-30702615C50A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5B142EE7-658A-4935-878F-30702615C50A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5B142EE7-658A-4935-878F-30702615C50A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5B142EE7-658A-4935-878F-30702615C50A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
