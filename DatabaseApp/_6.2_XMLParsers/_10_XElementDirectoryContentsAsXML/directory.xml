@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<directories>
+  <dir name="_10_XElementDirectoryContentsAsXML">
+    <file name="App.config" />
+    <file name="XElementDirectoryContentsAsXml.cs" />
+    <file name="_10_XElementDirectoryContentsAsXML.csproj" />
+    <dir name="bin">
+      <dir name="Debug">
+        <file name="_10_XElementDirectoryContentsAsXML.exe" />
+        <file name="_10_XElementDirectoryContentsAsXML.exe.config" />
+        <file name="_10_XElementDirectoryContentsAsXML.pdb" />
+        <file name="_10_XElementDirectoryContentsAsXML.vshost.exe" />
+        <file name="_10_XElementDirectoryContentsAsXML.vshost.exe.config" />
+        <file name="_10_XElementDirectoryContentsAsXML.vshost.exe.manifest" />
+      </dir>
+      <dir name="Release" />
+    </dir>
+    <dir name="obj">
+      <dir name="Debug">
+        <file name="DesignTimeResolveAssemblyReferencesInput.cache" />
+        <file name="TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs" />
+        <file name="TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs" />
+        <file name="TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs" />
+        <file name="_10_XElementDirectoryContentsAsXML.csproj.FileListAbsolute.txt" />
+        <file name="_10_XElementDirectoryContentsAsXML.csprojResolveAssemblyReference.cache" />
+        <file name="_10_XElementDirectoryContentsAsXML.exe" />
+        <file name="_10_XElementDirectoryContentsAsXML.pdb" />
+        <dir name="TempPE" />
+      </dir>
+    </dir>
+    <dir name="Properties">
+      <file name="AssemblyInfo.cs" />
+    </dir>
+  </dir>
+</directories>

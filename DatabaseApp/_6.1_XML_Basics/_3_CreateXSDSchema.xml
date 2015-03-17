@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<students:students
+  xmlns:students="http://www.students.org/students"
+  xmlns:exams="http://www.students.org/students/exams">
+  <students:student>
+    <students:name>Peter Petrov</students:name>
+    <students:gender>Male</students:gender>
+    <students:birth-date>2000-05-12</students:birth-date>
+    <students:phone-number>0899999999</students:phone-number>
+    <students:email>peter@gmail.com</students:email>
+    <students:university>SoftUni</students:university>
+    <students:speciality>Programmer</students:speciality>
+    <students:faculty-number>123</students:faculty-number>
+    <students:exams>
+      <exams:exam>
+        <exams:exam-name>PHP Basics</exams:exam-name>
+        <exams:exam-date>2014-05-12</exams:exam-date>
+        <exams:grade>5.48</exams:grade>
+      </exams:exam>
+      <exams:exam>
+        <exams:exam-name>Java Basics</exams:exam-name>
+        <exams:exam-date>2014-08-12</exams:exam-date>
+        <exams:grade>3.48</exams:grade>
+      </exams:exam>
+      <exams:exam>
+        <exams:exam-name>C# Basics</exams:exam-name>
+        <exams:exam-date>2014-09-12</exams:exam-date>
+        <exams:grade>4.48</exams:grade>
+      </exams:exam>
+    </students:exams>
+  </students:student>
+  <students:student>
+    <students:name>Petranka Petrova</students:name>
+    <students:gender>Female</students:gender>
+    <students:birth-date>1996-05-12</students:birth-date>
+    <students:phone-number>0899488888</students:phone-number>
+    <students:email>petranka@gmail.com</students:email>
+    <students:university>SoftUni</students:university>
+    <students:speciality>Programmer</students:speciality>
+    <students:faculty-number>126</students:faculty-number>
+    <students:exams>
+      <exams:exam>
+        <exams:exam-name>PHP Basics</exams:exam-name>
+        <exams:exam-date>2014-05-12</exams:exam-date>
+        <exams:grade>3.48</exams:grade>
+      </exams:exam>
+      <exams:exam>
+        <exams:exam-name>Java Basics</exams:exam-name>
+        <exams:exam-date>2014-08-12</exams:exam-date>
+        <exams:grade>5.48</exams:grade>
+      </exams:exam>
+      <exams:exam>
+        <exams:exam-name>C# Basics</exams:exam-name>
+        <exams:exam-date>2014-09-12</exams:exam-date>
+        <exams:grade>6.00</exams:grade>
+      </exams:exam>
+    </students:exams>
+  </students:student>
+</students:students>

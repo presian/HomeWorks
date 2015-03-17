@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<students>
+  <student>
+    <name>Peter Petrov</name>
+    <gender>Male</gender>
+    <birth-date>12.05.2000</birth-date>
+    <phone-number>0899999999</phone-number>
+    <email>peter@gmail.com</email>
+    <university>SoftUni</university>
+    <speciality>Programmer</speciality>
+    <faculty-number>123</faculty-number>
+    <exams>
+      <exam>
+        <exam-name>PHP Basics</exam-name>
+        <date-taken>25.08.2014</date-taken>
+        <grade>5.48</grade>
+      </exam>
+      <exam>
+        <exam-name>Java Basics</exam-name>
+        <date-taken>21.07.2014</date-taken>
+        <grade>3.48</grade>
+      </exam>
+      <exam>
+        <exam-name>C# Basics</exam-name>
+        <date-taken>22.05.2014</date-taken>
+        <grade>4.48</grade>
+      </exam>
+    </exams>
+  </student>
+  <student>
+    <name>Petranka Petrova</name>
+    <gender>Female</gender>
+    <birth-date>21.08.1996</birth-date>
+    <phone-number>0899488888</phone-number>
+    <email>petranka@gmail.com</email>
+    <university>SoftUni</university>
+    <speciality>Programmer</speciality>
+    <faculty-number>126</faculty-number>
+    <exams>
+      <exam>
+        <exam-name>PHP Basics</exam-name>
+        <date-taken>25.08.2014</date-taken>
+        <grade>3.48</grade>
+      </exam>
+      <exam>
+        <exam-name>Java Basics</exam-name>
+        <date-taken>21.07.2014</date-taken>
+        <grade>5.48</grade>
+      </exam>
+      <exam>
+        <exam-name>C# Basics</exam-name>
+        <date-taken>22.05.2014</date-taken>
+        <grade>6.00</grade>
+      </exam>
+    </exams>
+  </student>
+</students>

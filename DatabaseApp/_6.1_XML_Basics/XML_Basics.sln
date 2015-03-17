@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "problem1", "problem1", "{BDF451CE-84AE-45D1-88A9-348613C87DC2}"
+	ProjectSection(SolutionItems) = preProject
+		_1_Students.xml = _1_Students.xml
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Problem2", "Problem2", "{6B96AE76-C0AA-4139-8C79-B0EBCAB8289C}"
+	ProjectSection(SolutionItems) = preProject
+		_2_AddNamespace.xml = _2_AddNamespace.xml
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Problem3", "Problem3", "{3FE472DF-C0AA-4801-B85A-C4BC6298D446}"
+	ProjectSection(SolutionItems) = preProject
+		_3_CreateXSDSchema.xml = _3_CreateXSDSchema.xml
+		_3_CreateXSDSchema_Exams.xsd = _3_CreateXSDSchema_Exams.xsd
+		_3_CreateXSDSchema_root.xsd = _3_CreateXSDSchema_root.xsd
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
