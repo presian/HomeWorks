@@ -4,7 +4,7 @@ namespace ChatClent.Classes
 {
     class Utility
     {
-    	// Put here your MongoUrl
+    	// Put here your MongoLabUrl
         private const string MongoLabUrl = "";
         public  static MongoUrl ConnectionUrl = new MongoUrl(MongoLabUrl);
 
